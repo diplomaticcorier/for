@@ -1,0 +1,1327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta data-n-head="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    <meta name="description" content="Trade currencies, stocks, commodities, futures, bonds, and digital assets safely and securely with power for better trades. IC Markets EU" />
+    <meta name="keywords" content="Trading, Forex broker, Online forex trading, Crypto, Bitcoin, Forex, MT4, MT5, cTrader, IC Markets">
+    <meta name="keywords" content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+
+    <link rel="icon" href="assets/images/favicon.png">
+    <title>IC Markets | Payout</title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/rating.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/owlcarousel.css">
+
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/buy-ico.css">
+        <link rel="stylesheet" href="assets/css/resp.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <style>
+      ion-icon {
+         font-size: 20px;
+       }
+     </style>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body onload="startTime()"> 
+    <!-- loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader-index"> <span></span></div>
+      <svg>
+        <defs></defs>
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+          <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+        </filter>
+      </svg>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </div>
+    <!-- tap on tap ends-->
+  <!-- page-wrapper StartMy Currencies-->
+  <div class="page-wrapper compact-wrapper" id="pageWrapper">
+     <!-- Page Header Start-->
+     <div class="page-header">
+      <div class="header-wrapper row m-0">
+        <form class="form-inline search-full col" action="#" method="get">
+          <div class="form-group w-100">
+            <div class="Typeahead Typeahead--twitterUsers">
+              <div class="u-posRelative">
+                <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Cuba .." name="q" title="" autofocus>
+                <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><ion-icon style="font-size: 27px;" class="close-search" name="close-outline"></ion-icon>
+              </div>
+              <div class="Typeahead-menu"></div>
+            </div>
+          </div>
+        </form>
+        <div class="header-logo-wrapper col-auto p-0">
+          <div class="logo-wrapper">
+            <a href="index.html">
+              <img class="img-fluid" src="assets/images/logo/logo.png" alt=""></a></div>
+          <div class="toggle-sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" data-feather="align-center" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-center status_toggle middle sidebar-toggle"><line x1="18" y1="10" x2="6" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="18" y1="18" x2="6" y2="18"></line></svg>
+          </div>
+        </div>
+        <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+          <div class="notification-slider">
+            <div class="d-flex h-100"> <img src="assets/images/giftools.gif" alt="gif">
+              <h6 class="mb-0 f-w-400">
+                <span class="font-primary">Don't Miss Out! </span>
+                <span class="f-light">Out new update has been release.</span></h6>
+                <ion-icon name="trending-up-outline"></ion-icon>
+            </div>
+            <div class="d-flex h-100"><img src="assets/images/giftools.gif" alt="gif">
+              <h6 class="mb-0 f-w-400">
+                <span class="f-light">Explore Markets Investment Opportunities </span></h6>
+                <a class="ms-1" href="investment-plan.html" target="_blank">
+                  Invest now !</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+          <ul class="nav-menus">
+            <li class="language-nav">
+              <div class="translate_wrapper">
+                <div class="current_lang">
+                  <div class="lang"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">EN                               </span></div>
+                </div>
+                <div class="more_lang">
+                  <div class="lang selected" data-value="en"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">English<span> (US)</span></span></div>
+                  <div class="lang" data-value="de"><i class="flag-icon flag-icon-de"></i><span class="lang-txt">Deutsch</span></div>
+                  <div class="lang" data-value="es"><i class="flag-icon flag-icon-es"></i><span class="lang-txt">Español</span></div>
+                  <div class="lang" data-value="fr"><i class="flag-icon flag-icon-fr"></i><span class="lang-txt">Français</span></div>
+                  <div class="lang" data-value="pt"><i class="flag-icon flag-icon-pt"></i><span class="lang-txt">Português<span> (BR)</span></span></div>
+                  <div class="lang" data-value="cn"><i class="flag-icon flag-icon-cn"></i><span class="lang-txt">简体中文</span></div>
+                  <div class="lang" data-value="ae"><i class="flag-icon flag-icon-ae"></i><span class="lang-txt">لعربية <span> (ae)</span></span></div>
+                </div>
+              </div>
+            </li>
+            <li>                         <span class="header-search">
+              <ion-icon class="icon-font" name="search-outline"></ion-icon>
+              </span>
+              
+              </li>
+            <li class="onhover-dropdown">
+  
+              <ion-icon name="ribbon-outline"></ion-icon>
+  
+              <div class="onhover-show-div bookmark-flip">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="front">
+                      <h6 class="f-18 mb-0 dropdown-title">Invite friends and earn $10</h6>
+                      <ul class="bookmark-dropdown">
+                        <li>
+                          <div class="row">
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="rocket-outline"></ion-icon>
+                                </div><span>Send Invitation
+                                </span>
+                              </div>
+                            </div>
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="person-add-outline"></ion-icon>
+                                </div><span>Registration 👩🏻‍💻
+                                </span>
+                              </div>
+                            </div>
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="people-outline"></ion-icon>
+                                </div><span>Free Trial 🎉
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="text-center">
+                          <a class="flip-btn f-w-700" id="flip-btn" href="invest-friend.html">Refer & Earn</a></li>
+                      </ul>
+                    </div>
+                    <div class="back">
+                      <ul>
+                        <li>
+                          <div class="bookmark-dropdown flip-back-content">
+                            <input type="text" placeholder="search...">
+                          </div>
+                        </li>
+                        <li><a class="f-w-700 d-block flip-back" id="flip-back" href="javascript:void(0)">Back</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="mode">
+                <ion-icon name="sunny-outline"></ion-icon>
+  
+              </div>
+            </li>
+            <li class="cart-nav onhover-dropdown">
+              <div class="cart-box">
+                <ion-icon name="archive-outline"></ion-icon>
+                
+                <span class="badge rounded-pill badge-success">2</span>
+              </div>
+              <div class="cart-dropdown onhover-show-div">
+                <h6 class="f-18 mb-0 dropdown-title">Invest in Commodities</h6>
+                <ul>
+                  <li>
+                    <div class="media">
+                      <img class="img-fluid b-r-5 me-3 img-60" src="assets/images/btc/post-1" alt="">
+                      <div class="media-body"><span> <strong>$GEVO (Gevo Inc) 🚀</strong> GEVO's performance has been on fire, with a remarkable +25% surge in the past 30 days
+                      </span>
+                      </div>
+                      <div class="close-circle">
+                        <a class="bg-danger" href="#">
+                          <ion-icon name="close-outline"></ion-icon>
+                      </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media"><img class="img-fluid b-r-5 me-3 img-60" src="assets/images/btc/post-2" alt="">
+                      <div class="media-body"><span> <strong>❇️ Global equities</strong> 👋 Evening guys, how are we getting on after the first day of this new week? 🤖 Noticed this headline out of $RBLX (Roblox Corp.) today, courtesy of Bloomberg.</span>
+                        <div class="qty-box">
+                        </div>
+                      </div>
+                      <div class="close-circle">
+                        <a class="bg-danger" href="#">
+                          <ion-icon name="close-outline"></ion-icon>
+                        </a></div>
+                    </div>
+                  </li>
+                  <li class="text-center">
+                    <a class="d-block mb-3 view-cart f-w-700" href="#">More</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="onhover-dropdown">
+              <div class="notification-box">
+                <ion-icon name="mail-outline"></ion-icon>
+  
+                <span class="badge rounded-pill badge-secondary">4 </span>
+              </div>
+              <div class="onhover-show-div notification-dropdown">
+                <h6 class="f-18 mb-0 dropdown-title">Notitications                               </h6>
+                <ul>
+                  <li class="b-l-primary border-4">
+                    <p>New Login Details <span class="font-danger">Now</span></p>
+                  </li>
+                  <li class="b-l-success border-4">
+                    <p>Earn $20 on your first deposit<span class="font-success">Now</span></p>
+                  </li>
+                  <li class="b-l-secondary border-4">
+                    <p> Verify your account now!<span class="font-secondary">3 hr</span></p>
+                  </li>
+                  <li class="b-l-warning border-4">
+                    <p>Updates your account ID<span class="font-warning">3 hr</span></p>
+                  </li>
+                  <li><a class="f-w-700" href="#">Check all</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="profile-nav onhover-dropdown pe-0 py-0">
+              <div class="media profile-media">
+                <ion-icon class="b-r-10" style="font-size: 30px;" name="person-circle-outline"></ion-icon>
+                <div class="media-body"><span>Emay Walter</span>
+                  <p class="mb-0">Admin <i class="middle fa fa-angle-down"></i></p>
+                </div>
+              </div>
+              <ul class="profile-dropdown onhover-show-div">
+                <li><a href="settings-profile.html">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                  <span>Account </span></a></li>
+                <li><a href="chat.html">
+                  <ion-icon name="mail-unread-outline"></ion-icon>
+                  <span>Inbox</span></a></li>
+                <li><a href="settings-security.html">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                  <span>Settings</span></a></li>
+                <li><a href="help.html">
+                  <ion-icon name="cog-outline"></ion-icon>
+                  <span>FAQ</span></a></li>
+                <li><a href="login.html">
+                  <ion-icon name="exit-outline"></ion-icon>
+                 <span>Log in</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <script class="result-template" type="text/x-handlebars-template">
+          <div class="ProfileCard u-cf">                        
+          <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
+          <div class="ProfileCard-details">
+          <div class="ProfileCard-realName">{{name}}</div>
+          </div>
+          </div>
+        </script>
+        <script class="empty-template" type="text/x-handlebars-template"><div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div></script>
+      </div>
+    </div>
+    <!-- Page Header Ends                              -->
+    <!-- Page Body Start-->
+    <div class="page-body-wrapper">
+          <!-- Page Sidebar Start-->
+          <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
+            <div>
+              <div class="logo-wrapper">
+                <a href="index.html">
+                  <img class="img-fluid for-light" src="assets/images/logo/logo.png" alt="">
+                  <img class="img-fluid for-dark" src="assets/images/logo/logo_dark.png" alt="">
+                </a>
+                <div class="back-btn">
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="toggle-sidebar">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid status_toggle middle sidebar-toggle"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>              </div>
+              </div>
+              <div class="logo-icon-wrapper">
+                <a href="dashboard.html">
+                <img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a>
+              </div>
+  
+              <nav class="sidebar-main">
+                <div class="left-arrow" id="left-arrow">
+                  <i data-feather="arrow-left"></i></div>
+                <div id="sidebar-menu">
+                  <ul class="sidebar-links" id="simple-bar">
+                    <li class="back-btn">
+                      <a href="dashboard.html">
+                      <img class="img-fluid" src="assets/images/logo/logo-icon.png" alt="">
+                    </a>
+                      <div class="mobile-back text-end">
+                        <span>Back</span>
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                      </div>
+                    </li>
+                    <li class="pin-title sidebar-main-title">
+                      <div> 
+                        <h6>Pinned</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6 class="lan-1">MAIN MENU
+                        </h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <label class="badge badge-light-primary">3</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        
+                        <ion-icon name="home-outline"></ion-icon>
+                      
+                        <span class="lan-3">Dashboard  </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a class="active" href="dashboard.html">Dashboard</a></li>
+                        <li><a  href="wallet.html">Wallet</a></li>
+                        <li><a href="buy-sell.html">Buy/Sell</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6 >WALLET</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-primary">3</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="wallet-outline"></ion-icon>
+                        <span>Deposit           </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="card-deposit.html">Credit or Debit Card</a></li>
+                        <li><a href="bank-deposit.html">Bank Account</a></li>
+                        <li><a href="crypto-deposit.html">Crypto Currency</a></li>
+                      </ul>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-secondary">New</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span>NFT           </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="NFT.html">NFT</a></li>
+                        <li><a href="create-nft.html">Create NTF</a></li>
+                        <li><a href="collection-nft.html">Collections</a></li>
+                      </ul>
+                    </li>
+  
+  
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="transaction.html">
+                      <ion-icon name="shuffle-outline"></ion-icon>
+                        <span>Transaction</span></a>
+                      </li>
+  
+  
+                      <li class="sidebar-list">
+                        <i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="withdraw.html">
+                          <ion-icon name="cash-outline"></ion-icon> 
+                           <span>Withdraw</span></a>
+                        </li>
+  
+                        <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                          <label class="badge badge-light-primary">2</label>
+                          <a class="sidebar-link sidebar-title" href="#">
+                            <ion-icon name="swap-horizontal-outline"></ion-icon>
+                            <span>Send/Receive           </span></a>
+                          <ul class="sidebar-submenu">
+                            <li><a href="send-money.html">Send</a></li>
+                            <li><a href="request-money.html">Receive</a></li>
+                          </ul>
+                        </li>
+  
+  
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>Investment</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="investment-plan.html">
+                        <ion-icon name="leaf-outline"></ion-icon>
+                        <span>Investment Plan</span></a>
+                      </li>
+                      <li class="sidebar-list">
+                        <i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="investment-profit.html">
+                          <ion-icon name="pulse-outline"></ion-icon>
+                          <span>Investment Profit</span></a>
+                        </li>
+                        <li class="sidebar-list">
+                          <i class="fa fa-thumb-tack"></i>
+                          <a class="sidebar-link sidebar-title link-nav" href="payout.html">
+                            <ion-icon name="calendar-number-outline"></ion-icon>
+                            <span>Payout</span></a>
+                        </li>
+  
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>Apps</h6>
+                      </div>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-primary">2</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                        <span>Chat </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="chat.html">Private Chat</a></li>
+                        <li><a href="letter-box.html">Email</a></li>
+                      </ul>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="notifications.html" >
+                        <ion-icon name="notifications-outline"></ion-icon>
+                      <span>Notifications</span></a>
+                    </li>
+  
+                   
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                      <ion-icon name="qr-code-outline"></ion-icon>
+                        <span>Payment method</span></a>
+                      </li>
+  
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="contact.html">
+                        <ion-icon name="mail-unread-outline"></ion-icon>
+                        <span>Contact Us</span></a>
+                      </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="invest-friend.html" >
+                        <ion-icon name="navigate-outline"></ion-icon>
+                      <span>Refer & Earn</span></a></li>
+  
+                      
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>ACCOUNT
+                        </h6>
+                      </div>
+                    </li>
+                   
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="settings-profile.html">
+                        <ion-icon name="settings-outline"></ion-icon>
+                        <span>Settings</span></a>
+                      </li>
+  
+                      <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="settings-notifications.html">
+                          <ion-icon name="notifications-off-outline"></ion-icon>
+                          <span>Notifications Settings</span></a>
+                        </li>
+  
+                      
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="settings-security.html">
+                        <ion-icon name="shield-outline"></ion-icon>
+                        <span>Security</span></a>
+                      </li>
+  
+  
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="faq.html">
+                        <ion-icon name="help-circle-outline"></ion-icon>
+                        <span>FAQ</span></a>
+                      </li>
+  
+                      <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="#Logout" data-bs-toggle="modal">
+                          <ion-icon name="exit-outline"></ion-icon>
+                          <span>Logout</span></a>
+                        </li>
+    
+    
+                        <!--down style-->
+                        <div class="sidebar-widgets">
+                          <div class="mx-25 mb-30 p-30 text-center bg-primary-light rounded5">
+                            <img src="assets/images/btc/trophy.png" alt="">
+                            <h4 class="my-3 fw-500 text-uppercase text-primary">Start Trading</h4>
+                            <span class="fs-12 d-block mb-3 text-black-50">Offering discounts for better online a store can loyalty weapon into driving</span>
+                            <a href="investment-plan.html" class="waves-effect waves-light btn btn-sm btn-primary mb-5">Invest Now</a>
+                          </div>
+                          </div>
+                          <style>
+                            .fw-500 {
+                                font-weight: 500;
+                                font-size: 18px;
+                            }
+                            .theme-warning .bg-primary-light {
+                              background-color: #fff8ea !important;
+                              color: #ffa800;
+                          }
+                          .fs-12 {
+                              font-size: 12px;
+                          }
+                          </style>
+                          <!--end of down nav-->
+                        
+                  </ul>
+                </div>
+                <div class="right-arrow" id="right-arrow">
+                  <i data-feather="arrow-right"></i>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-6">
+                  <h4>Chesapeake Energy</h4> 
+                </div>
+                <div class="col-6">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="dashboard.html">                                       
+                      <ion-icon name="home-outline"></ion-icon>
+                      </a></li>
+                    <li class="breadcrumb-item">Apps</li>
+                    <li class="breadcrumb-item active">Chesapeake Energy</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+     <!-- Container-fluid starts-->
+     <div class="container-fluid">
+        <div>
+          <div class="row product-page-main p-0">
+            <div class="col-xxl-4 col-md-6 box-col-12">
+              <div class="card">
+                <div class="card-body">
+              <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                    {
+                    "colorTheme": "light",
+                    "dateRange": "3M",
+                    "showChart": true,
+                    "locale": "en",
+                    "largeChartUrl": "",
+                    "isTransparent": false,
+                    "showSymbolLogo": true,
+                    "showFloatingTooltip": false,
+                    "width": "100%",
+                    "height": "410",
+                    "plotLineColorGrowing": "rgba(17, 85, 204, 1)",
+                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                    "scaleFontColor": "rgba(106, 109, 120, 1)",
+                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                    "tabs": [
+                                {
+                                "title": "Indices",
+                                "symbols": [
+                                    {
+                                    "s": "NASDAQ:CHK",
+                                    "d": "Chesapeake Energy"
+                                    }
+                                ],
+                                "originalTitle": "Indices"
+                                }
+                            ]
+                            }
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-5 box-col-6 order-xxl-0 order-1">
+              <div class="card">
+                <div class="card-body">
+                  <div class="product-page-details">
+                    <h3>Chesapeake Energy Corp</h3>
+                  </div>
+                  <div class="product-price">$98.10 
+                    <del>$140.00 </del>
+                  </div>
+                  <hr>
+                  <p>Chesapeake Energy Corp. is an independent exploration and production company, which engages in acquisition, exploration and development of properties for the production of oil, natural gas and natural gas liquids from underground reservoirs. It focuses on projects located in Louisiana, Ohio, Oklahoma, Pennsylvania, Texas, and Wyoming.</p>
+                  <hr>
+                  <div>
+                    <table class="product-page-width">
+                      <tbody>
+                        <tr>
+                          <td> <b>CEO &nbsp;&nbsp;&nbsp;:</b></td>
+                          <td>Robert Lawler</td>
+                        </tr>
+                        <tr>
+                          <td> <b>Employees &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;</b></td>
+                          <td class="txt-success">1,300</td>
+                        </tr>
+                        <tr>
+                          <td> <b>Industry &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;</b></td>
+                          <td>Crude Petroleum and Natural Gas Extraction</td>
+                        </tr>
+                        <tr>
+                          <td> <b>last 12 months &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;</b></td>
+                          <td class="text-danger">-3.2%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h6 class="product-title">Rate Now</h6>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="d-flex">
+                        <select id="u-rating-fontawesome" name="rating" autocomplete="off">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select><span>(218 review)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="m-t-15 btn-showcase">
+                    <button id="checkout" class="btn btn-success" > 
+                        <i class="fa fa-shopping-cart me-1"></i>Invest Now
+                    </button>
+                    <a class="btn btn-secondary" href="list-wish.html"> 
+                        <i class="fa fa-heart me-1"></i>Add To WishList
+                    </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-md-6 box-col-6">
+              <div class="card">
+                <div class="card-body">
+                  <!-- side-bar colleps block stat-->
+                  <div class="filter-block">
+                    <div class="row details">
+                        <div class="col-6"><span>Market Cap </span></div>
+                        <div class="col-6 text-primary">$11.2 Billion </div>
+                        <div class="col-6"> <span>52 Week Range</span></div>
+                        <div class="col-6 text-primary">$68.66 - $102.93</div>
+                        <div class="col-6"> <span>Price-Earnings Ratio</span></div>
+                        <div class="col-6 text-primary">-1.16x</div>
+                        <div class="col-6"> <span>Dividends per Share</span></div>
+                        <div class="col-6 text-danger">$7.76</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="collection-filter-block">
+                    <div>
+                        <h5>Top Chesapeake Investors</h5>
+                      </div>
+                    
+                    <ul class="pro-services">
+                      <li>
+                        <div class="prooduct-details-box">                                 
+                            <div class="media">
+                                <div class="media-body ms-3">
+                                <div class="product-name">
+                                  <h6><a href="#">Howard Marks</a></h6>
+                                </div>
+                                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                <div class="price d-flex"> 
+                                  <div class="text-muted me-2">Holdings current value</div>: $732 Million
+                                </div>
+                                <div class="avaiabilty">
+                                  <div class="text-success">Sold 0.12% shares</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </li>
+                      <li>
+                        <div class="prooduct-details-box">                                 
+                            <div class="media">
+                              <div class="media-body ms-3">
+                                <div class="product-name">
+                                  <h6><a href="#">Steven Cohen</a></h6>
+                                </div>
+                                <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                <div class="price d-flex"> 
+                                  <div class="text-muted me-2">Holdings current value</div>: $26.4 Million
+                                </div>
+                                <div class="avaiabilty">
+                                  <div class="text-success">Sold 07.3% shares</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- silde-bar colleps block end here-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card" id="mybox"  style="display: none;">
+            <div class="row align-items-center p-4">
+              <div class="col-md-6">
+                <h2 class="text-primary d-flex align-items-center m-0"><span class="text-3 text-dark me-1">Total Payable Amount: </span> $98.10</h2>
+              </div>
+              <div class="col-md-6">
+                <p class="text-md-end pb-0 mb-0">Transaction ID: <span class="text-body">25YY6784</span></p>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="p-4">
+              <h3 class="text-6 mb-4">How would you like to pay?</h3>
+              <div class="row">
+                <div class="col-md-4 col-lg-3">
+                  <ul class="nav nav-tabs flex-column" id="myTab" role="tablist">
+                    <li class="nav-item"> <a class="nav-link" id="first-tab" data-bs-toggle="tab" href="#firstTab" role="tab" aria-controls="firstTab" aria-selected="false">
+                        <i class='bx bxs-credit-card'></i>  Credit/Debit Cards
+                    </a> </li>
+                    <li class="nav-item"> <a class="nav-link active" id="second-tab" data-bs-toggle="tab" href="#secondTab" role="tab" aria-controls="secondTab" aria-selected="true">
+                        <i class='bx bxl-bitcoin' ></i> Bitcoin
+                    </a> 
+                  </li>
+                  </ul>
+                </div>
+                <div class="col-md-8 col-lg-9 ">
+                  <div class="tab-content my-3" id="myTabContentVertical">
+                    <div class="tab-pane fade" id="firstTab" role="tabpanel" aria-labelledby="first-tab">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <h3 class="text-5 mb-4">Enter Card Details</h3>
+                          <form id="payment" method="post">
+                            <div class="row g-3">
+                              <div class="col-12">
+                                <label class="form-label" for="cardNumber">Enter Debit / Credit Card Number</label>
+                                <input type="text" class="form-control" data-bv-field="cardnumber" id="cardNumber" required="" placeholder="Card Number">
+                              </div>
+                              <div class="col-lg-4">
+                                <div>
+                                  <label class="form-label" for="expiryMonth">Expiry Month</label>
+                                  <select id="expiryMonth" class="form-select" required="">
+                                    <option value="">Expiry Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="1">April</option>
+                                    <option value="1">May</option>
+                                    <option value="1">June</option>
+                                    <option value="1">July</option>
+                                    <option value="1">August</option>
+                                    <option value="1">September</option>
+                                    <option value="1">October</option>
+                                    <option value="1">November</option>
+                                    <option value="1">December</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-4">
+                                <div>
+                                  <label class="form-label" for="expiryYear">Expiry Year</label>
+                                  <select id="expiryYear" class="form-select" required="">
+                                    <option value="">Expiry Year</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2027</option>
+                                    <option>2028</option>
+                                    <option>2029</option>
+                                    <option>2030</option>
+                                    <option>2031</option>
+                                    <option>2032</option>
+                                    <option>2033</option>
+                                    <option>2034</option>
+                                    <option>2035</option>
+                                    <option>2036</option>
+                                    <option>2037</option>
+                                    <option>2038</option>
+                                    <option>2039</option>
+                                    <option>2040</option>
+                                    <option>2041</option>
+                                    <option>2042</option>
+                                    <option>2043</option>
+                                    <option>2044</option>
+                                    <option>2045</option>
+                                    <option>2046</option>
+                                    <option>2047</option>
+                                    <option>2048</option>
+                                    <option>2049</option>
+                                    <option>2050</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-4">
+                                <label class="form-label" for="cvvNumber">CVV</label>
+                                <input type="text" class="form-control" data-bv-field="cvvnumber" id="cvvNumber" required="" placeholder="CVV Number">
+                              </div>
+                              <div class="col-12">
+                                <label class="form-label" for="cardHolderName">Card Holder Name</label>
+                                <input type="text" class="form-control" data-bv-field="cardholdername" id="cardHolderName" required="" placeholder="Card Holder Name">
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input id="save-card" name="savecard" class="form-check-input" type="checkbox">
+                                  <label class="form-check-label" for="save-card">Save my card Details.</label>
+                                </div>
+                              </div>
+                              <div class="col-12 d-grid"> <a class="btn btn-primary" href="#">Proceed to Pay $135</a> </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="col-lg-4 mt-lg-0 mt-4">
+                          <h3 class="text-4 mb-3">We Accept:</h3>
+                          <ul class="payments-types mb-3">
+                            <li><a href="#" target="_blank"> <img data-bs-toggle="tooltip" src="assets/images/payment/visa.png" alt="visa" title="" data-bs-original-title="Visa" aria-label="Visa"></a></li>
+                            <li><a href="#" target="_blank"> <img data-bs-toggle="tooltip" src="assets/images/payment/discover.png" alt="discover" title="" data-bs-original-title="Discover" aria-label="Discover"></a></li>
+                            <li><a href="#" target="_blank"> <img data-bs-toggle="tooltip" src="assets/images/payment/american.png" alt="american express" title="" data-bs-original-title="American Express" aria-label="American Express"></a></li>
+                            <li><a href="#" target="_blank"> <img data-bs-toggle="tooltip" src="assets/images/payment/mastercard.png" alt="discover" title="" data-bs-original-title="Discover" aria-label="Discover"></a></li>
+                          </ul>
+                          <!-- Privacy Information
+          ============================================= -->
+                        <div class="bg-light-2 rounded p-4 d-none d-md-block">
+                            <h3 class="text-4 mb-3">How long does it take to show up?</h3>
+                            <p class="mb-0">It takes seconds for the initial debit card payment to go from the merchant through the debit card processor and then from there to the issuing bank before being approved</p>
+                            <hr class="mx-n4">
+                            <h3 class="text-4 mb-3">Note:</h3>
+                            <p class="mb-0">After this point, fund transfer from the issuing bank to the merchant account usually happens within 24 hours.</p>
+                        </div>
+                          <!-- Privacy Information end --> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade active show" id="secondTab" role="tabpanel" aria-labelledby="second-tab">
+                      <div class="row">
+                        <div class="col-md-8"> 
+                            
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="qr text-center" id="qr-code" >
+                                        <img src =  ""   class = "qr-code downloadimage img-thumbnail img-responsive" />       
+                                      </div>
+        
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="mb-2 text-center">
+                                            <span  id="clipboardExample2">0.000034</span> BTC 
+                                            <i class='bx bx-copy btn-clipboard' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="Copy" data-clipboard-action="copy" data-clipboard-target="#clipboardExample2"></i> 
+                                        </h5>
+                                       <hr>
+                                       <div class="mb-3">
+                                        <label class="form-label">Send To Address:</label>
+                                        <div class="input-group">
+                                          <input class="form-control" id="clipboardExample1" type="text" value="3JbVqM8NGTuvfuB2LWJQAQFsbyej81vbYx" aria-label="Recipient's username">
+                                          <span type="button" data-clipboard-action="copy" data-clipboard-target="#clipboardExample1" class="input-group-text list-light-danger btn-clipboard" style="cursor: pointer;">
+                                            Copy <i class="fa fa-copy"></i></span>
+                                        </div>
+                                      </div>
+                                      <p>Send 0.000034 BTC (in ONE payment) to: don't include transaction fee in this amount</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="button" class="butss button btn btn-pill btn-light" >  
+                                    <i class='bx bxs-download'></i>Download QR Code 
+                                 </button>  
+                            </div>
+
+
+                           
+                        </div>
+
+                        <div class="col-md-4 mt-md-0 mt-4">
+                          <div class="bg-light-2 rounded p-4 d-none d-md-block">
+                            <h3 class="text-4 mb-3">How long does it take to show up?</h3>
+                            <p class="mb-0">This can take anywhere from five minutes to an hour, depending on the Bitcoin network.</p>
+                            <hr class="mx-n4">
+                            <h3 class="text-4 mb-3">Note:</h3>
+                            <p class="mb-0">If you send any other BTC amount, payment system will ignore it! and refund you back your money.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <style>
+            .nav-tabs.flex-column .nav-item .nav-link {
+border: 1px solid #d7dee3;
+border-right: 0px;
+background-color: #f6f7f8;
+font-size: 14px;
+padding: 0.75rem 1rem;
+color: #535b61;
+}
+.nav-tabs .nav-item .nav-link {
+border: 0;
+background: transparent;
+font-size: 1rem;
+position: relative;
+border-radius: 0;
+padding: 0.8rem 1rem;
+color: #7b8084;
+white-space: nowrap !important;
+}
+.nav-tabs .nav-item .nav-link.active {
+color: #005da8;
+}
+.nav-tabs.flex-column .nav-item:last-of-type .nav-link {
+border-bottom-left-radius: 4px;
+}
+.nav-tabs.flex-column .nav-item:first-of-type .nav-link {
+border-top-left-radius: 4px;
+}
+
+.nav-tabs.flex-column .nav-item:last-of-type .nav-link {
+border-bottom-left-radius: 4px;
+}
+
+.nav-tabs.flex-column .nav-item .nav-link.active {
+background-color: transparent;
+color: #0071cc;
+}
+
+.nav-tabs.flex-column .nav-item .nav-link.active:after {
+height: 100%;
+width: 2px;
+background: #fff;
+right: -1px;
+left: auto;
+}
+.nav-tabs.style-4 .nav-item .nav-link.active, .nav-tabs.style-4 .nav-item .nav-link:hover.active {
+color: #fff;
+opacity: 1;
+filter: alpha(opacity=100);
+}
+
+.nav-tabs.style-4 .nav-item .nav-link.active::after {
+content: none;
+}
+.nav-tabs.flex-column {
+border-right: 1px solid #d7dee3;
+border-bottom: 0px;
+padding: 1.5rem 0;
+flex-wrap: inherit;
+overflow: inherit;
+overflow-x: inherit;
+}
+.lead {
+font-size: 1.25rem;
+font-weight: 300;
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+.alert-info {
+color: #055160;
+background-color: #cff4fc;
+border-color: #b6effb;
+}
+.mb-4 {
+margin-bottom: 1.5rem !important;
+}
+.bg-light-2 {
+background-color: #f8f8fa !important;
+}
+.text-4 {
+font-size: 18px !important;
+font-weight: 500;
+}
+.mb-3 {
+margin-bottom: 1rem !important;
+}
+.mb-0 {
+margin-bottom: 0 !important;
+}
+.payments-types {
+margin: 0;
+padding: 0;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+list-style: none;
+}
+.payments-types li {
+margin: 0px 10px 8px 0px;
+}
+.payments-types li a {
+-webkit-transition: all 0.2s ease;
+transition: all 0.2s ease;
+opacity: 1;
+}
+.payments-types li img {
+display: flex;
+}
+.text-3 {
+font-size: 16px !important;
+font-size: 1rem !important;
+}
+.pb-0 {
+padding-bottom: 0 !important;
+}
+.mb-0 {
+margin-bottom: 0 !important;
+}
+.text-body {
+--bs-text-opacity: 1;
+color: rgb(33, 37, 41);
+font-size :14px;
+}
+.text-6 {
+font-size: 20px !important;
+font-weight: 400;
+}
+.mb-4 {
+margin-bottom: 1.5rem !important;
+}
+ </style>
+
+
+
+
+        <div class="card">
+          <div class="row product-page-main">
+            <div class="col-sm-12">
+              <ul class="nav nav-tabs border-tab nav-primary mb-0" id="top-tab" role="tablist">
+                <li class="nav-item"><a class="nav-link active" id="top-home-tab" data-bs-toggle="tab" href="#top-home" role="tab" aria-controls="top-home" aria-selected="false">About</a>
+                  <div class="material-border"></div>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-bs-toggle="tab" href="#top-profile" role="tab" aria-controls="top-profile" aria-selected="false">Share Statistics</a>
+                  <div class="material-border"></div>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="contact-top-tab" data-bs-toggle="tab" href="#top-contact" role="tab" aria-controls="top-contact" aria-selected="true">Valuation</a>
+                  <div class="material-border"></div>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="brand-top-tab" data-bs-toggle="tab" href="#top-brand" role="tab" aria-controls="top-brand" aria-selected="true">Profitability</a>
+                  <div class="material-border"></div>
+                </li>
+              </ul>
+              <div class="tab-content" id="top-tabContent">
+                <div class="tab-pane fade active show" id="top-home" role="tabpanel" aria-labelledby="top-home-tab">
+                  <p class="mb-0 m-t-20">Chesapeake Energy Corp. engages in the acquisition, exploration, and development of properties for the production of oil, natural gas and natural gas liquids from underground reservoirs. It operates through the following areas: Marcellus, Haynesville, and Eagle Ford. The company was founded on May 18, 1989 and is headquartered in Oklahoma City, OK.</p>
+                </div>
+                <div class="tab-pane fade" id="top-profile" role="tabpanel" aria-labelledby="profile-top-tab">
+                    <div class="row details">
+                        <div class="col-6"><span>Market Cap </span></div>
+                        <div class="col-6 text-primary">$11.2 Billion		
+                        </div>
+                        <div class="col-6"> <span>Enterprise Value</span></div>
+                        <div class="col-6 text-primary">$781 Billion		
+                        </div>
+                        <div class="col-6"> <span>Dividend Yield</span></div>
+                        <div class="col-6 text-primary">$7.76 (9.23%)	
+                        </div>
+                        <div class="col-6"> <span>1 Year Return</span></div>
+                        <div class="col-6 text-danger">+6.0%				
+                        </div>
+                        <div class="col-6"> <span>Avg 30 Day Volume</span></div>
+                        <div class="col-6 text-danger">134 Million			
+                        </div>
+                      </div> 
+                </div>
+                <div class="tab-pane fade" id="top-contact" role="tabpanel" aria-labelledby="contact-top-tab">
+                    <div class="row details">
+                        <div class="col-6"><span>P/E Ratio </span></div>
+                        <div class="col-6 text-primary">66.38		
+                        </div>
+                        <div class="col-6"> <span>PEG</span></div>
+                        <div class="col-6 text-primary">27.73				
+                        </div>
+                        <div class="col-6"> <span>Earnings per Share</span></div>
+                        <div class="col-6 text-primary">-		
+                        </div>
+                        <div class="col-6"> <span>Price to Book Ratio</span></div>
+                        <div class="col-6 text-primary">-			
+                        </div>
+                        <div class="col-6"> <span>Debt to Equity</span></div>
+                        <div class="col-6 text-primary">-$991.35				
+                        </div>
+                      </div> 
+                 </div>
+                <div class="tab-pane fade" id="top-brand" role="tabpanel" aria-labelledby="brand-top-tab">
+                    <div class="row details">
+                        <div class="col-6"><span>Gross Profit </span></div>
+                        <div class="col-6 text-primary">$18 Billion		
+                        </div>
+                        <div class="col-6"> <span>Revenue</span></div>
+                        <div class="col-6 text-primary">-				
+                        </div>
+                        <div class="col-6"> <span>Net Income</span></div>
+                        <div class="col-6 text-primary">$12.2 Billion				
+                        </div>
+                        <div class="col-6"> <span>Return on Invested Capital</span></div>
+                        <div class="col-6 text-danger">-				
+                        </div>
+                        <div class="col-6"> <span>Return on Equity</span></div>
+                        <div class="col-6 text-primary">-		
+                        </div>
+                      </div> 
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container-fluid Ends-->
+
+    <!--logout item-->
+    <div class="modal fade"   id="Logout" tabindex="-1" aria-labelledby="Logout" aria-modal="true" role="dialog" >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body main-qr-code">
+  
+            <div class="h-screen  flex items-center justify-center">
+              <div class="p-4  rounded-md  text-center overflow-y-auto">
+                  <span class="mt-0 mega-title-badge">
+                    <img src="assets/images/gif/danger.gif" alt="" style="width: 20%;">
+                                  </span>
+          
+                  <h3 class="mb-2 text-2xl font-bold text-gray-800">
+                      Sign out
+                  </h3>
+                  <p class="text-gray-500">
+                      Are you sure you would like to sign out of your account?
+                  </p>
+              
+                  <div class="mt-6 flex justify-center gap-x-4">
+                      <a class="btn btn-secondary"
+                          href="login.html" >
+                          Sign out
+                      </a>
+                      <button class="btn btn-primary close"  data-bs-dismiss="modal" >
+                                                    Cancel
+                                      </button>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--logout end-->
+  
+
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright text-center">
+                <p class="mb-0">Copyright 2023 © Cuba theme by pixelstrap  </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- latest jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <script src="assets/js/scrollbar/simplebar.js"></script>
+    <script src="assets/js/scrollbar/custom.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/sidebar-pin.js"></script>
+    <script src="assets/js/clock.js"></script>
+    <script src="assets/js/slick/slick.min.js"></script>
+    <script src="assets/js/slick/slick.js"></script>
+    <script src="assets/js/header-slick.js"></script>
+    <script src="assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="assets/js/chart/apex-chart/moment.min.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/dashboard/default.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+    <script src="assets/js/typeahead/handlebars.js"></script>
+    <script src="assets/js/typeahead/typeahead.bundle.js"></script>
+    <script src="assets/js/typeahead/typeahead.custom.js"></script>
+    <script src="assets/js/typeahead-search/handlebars.js"></script>
+    <script src="assets/js/typeahead-search/typeahead-custom.js"></script>
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/animation/wow/wow.min.js"></script>
+    <script src="assets/js/clipboard/clipboard.min.js"></script>
+    <script src="assets/js/custom-card/custom-card.js"></script>
+    <script src="assets/js/tooltip-init.js"></script>
+
+    <script src="assets/js/rating/jquery.barrating.js"></script>
+    <script src="assets/js/rating/rating-script.js"></script>
+    <script src="assets/js/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/js/ecommerce.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script>new WOW().init();</script>
+    <script src="assets/js/invest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+    <script src="assets/js/clipboard/clipboard.min.js"></script>
+    <script src="assets/js/clipboard/clipboard-script.js"></script>
+  
+
+
+    <div class="customizer-links" >
+      <div class="nav flex-column nac-pills" id="c-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link" id="c-pills-layouts-tab" data-bs-toggle="pill" href="#c-pills-layouts" role="tab" aria-controls="c-pills-layouts" aria-selected="false" data-original-title="">
+      <div class="settings">
+        <ion-icon name="color-fill-outline"></ion-icon>
+      </div>
+      <span>Check layouts</span></a> 
+      <a class="nav-link" id="c-pills-home-tab" data-bs-toggle="pill" href="crypto-deposit.html" role="tab" aria-controls="c-pills-home" aria-selected="false" data-original-title="">
+      <div class="settings">
+        <ion-icon name="server-outline"></ion-icon>
+      </div>
+      <span>Deposit</span></a> 
+      <a class="nav-link" target="_blank" href="settings-profile.html" data-original-title="">
+      <div>
+        <ion-icon name="cog-outline"></ion-icon>
+     </div>
+     <span>Settings</span></a> 
+     <a class="nav-link" target="_blank" href="settings-security.html" data-original-title="">
+     <div>
+      <ion-icon name="finger-print-outline"></ion-icon>
+      </div>
+      <span>Security</span></a> 
+      <a class="nav-link" target="_blank" href="chat.html" data-original-title="">
+      <div>
+        <ion-icon name="mail-unread-outline"></ion-icon>
+      </div>
+      <span>Inbox</span></a> 
+      <a class="nav-link" target="_blank" href="login.html" data-original-title="">
+      <div>
+        <ion-icon name="log-in-outline"></ion-icon>
+      </div>
+      <span>Log Out</span></a>
+      </div>
+      </div>
+  
+
+
+  </body>
+</html>

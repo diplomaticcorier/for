@@ -1,0 +1,1462 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta data-n-head="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    <meta name="description" content="Trade currencies, stocks, commodities, futures, bonds, and digital assets safely and securely with power for better trades. IC Markets EU" />
+    <meta name="keywords" content="Trading, Forex broker, Online forex trading, Crypto, Bitcoin, Forex, MT4, MT5, cTrader, IC Markets">
+    <meta name="keywords" content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+
+    <link rel="icon" href="assets/images/favicon.png">
+    <title>IC Markets | Payout</title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato&display=swap" rel="stylesheet">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/buy-ico.css">
+        <link rel="stylesheet" href="assets/css/resp.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+    <style>
+      ion-icon {
+         font-size: 20px;
+       }
+     </style>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body onload="startTime()"> 
+    <!-- loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader-index"> <span></span></div>
+      <svg>
+        <defs></defs>
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+          <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+        </filter>
+      </svg>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </div>
+    <!-- tap on tap ends-->
+  <!-- page-wrapper StartMy Currencies-->
+  <div class="page-wrapper compact-wrapper" id="pageWrapper">
+     <!-- Page Header Start-->
+     <div class="page-header">
+      <div class="header-wrapper row m-0">
+        <form class="form-inline search-full col" action="#" method="get">
+          <div class="form-group w-100">
+            <div class="Typeahead Typeahead--twitterUsers">
+              <div class="u-posRelative">
+                <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Cuba .." name="q" title="" autofocus>
+                <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><ion-icon style="font-size: 27px;" class="close-search" name="close-outline"></ion-icon>
+              </div>
+              <div class="Typeahead-menu"></div>
+            </div>
+          </div>
+        </form>
+        <div class="header-logo-wrapper col-auto p-0">
+          <div class="logo-wrapper">
+            <a href="index.html">
+              <img class="img-fluid" src="assets/images/logo/logo.png" alt=""></a></div>
+          <div class="toggle-sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" data-feather="align-center" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-center status_toggle middle sidebar-toggle"><line x1="18" y1="10" x2="6" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="18" y1="18" x2="6" y2="18"></line></svg>
+          </div>
+        </div>
+        <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+          <div class="notification-slider">
+            <div class="d-flex h-100"> <img src="assets/images/giftools.gif" alt="gif">
+              <h6 class="mb-0 f-w-400">
+                <span class="font-primary">Don't Miss Out! </span>
+                <span class="f-light">Out new update has been release.</span></h6>
+                <ion-icon name="trending-up-outline"></ion-icon>
+            </div>
+            <div class="d-flex h-100"><img src="assets/images/giftools.gif" alt="gif">
+              <h6 class="mb-0 f-w-400">
+                <span class="f-light">Explore Markets Investment Opportunities </span></h6>
+                <a class="ms-1" href="investment-plan.html" target="_blank">
+                  Invest now !</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+          <ul class="nav-menus">
+            <li class="language-nav">
+              <div class="translate_wrapper">
+                <div class="current_lang">
+                  <div class="lang"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">EN                               </span></div>
+                </div>
+                <div class="more_lang">
+                  <div class="lang selected" data-value="en"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">English<span> (US)</span></span></div>
+                  <div class="lang" data-value="de"><i class="flag-icon flag-icon-de"></i><span class="lang-txt">Deutsch</span></div>
+                  <div class="lang" data-value="es"><i class="flag-icon flag-icon-es"></i><span class="lang-txt">Español</span></div>
+                  <div class="lang" data-value="fr"><i class="flag-icon flag-icon-fr"></i><span class="lang-txt">Français</span></div>
+                  <div class="lang" data-value="pt"><i class="flag-icon flag-icon-pt"></i><span class="lang-txt">Português<span> (BR)</span></span></div>
+                  <div class="lang" data-value="cn"><i class="flag-icon flag-icon-cn"></i><span class="lang-txt">简体中文</span></div>
+                  <div class="lang" data-value="ae"><i class="flag-icon flag-icon-ae"></i><span class="lang-txt">لعربية <span> (ae)</span></span></div>
+                </div>
+              </div>
+            </li>
+            <li>                         <span class="header-search">
+              <ion-icon class="icon-font" name="search-outline"></ion-icon>
+              </span>
+              
+              </li>
+            <li class="onhover-dropdown">
+  
+              <ion-icon name="ribbon-outline"></ion-icon>
+  
+              <div class="onhover-show-div bookmark-flip">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="front">
+                      <h6 class="f-18 mb-0 dropdown-title">Invite friends and earn $10</h6>
+                      <ul class="bookmark-dropdown">
+                        <li>
+                          <div class="row">
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="rocket-outline"></ion-icon>
+                                </div><span>Send Invitation
+                                </span>
+                              </div>
+                            </div>
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="person-add-outline"></ion-icon>
+                                </div><span>Registration 👩🏻‍💻
+                                </span>
+                              </div>
+                            </div>
+                            <div class="col-4 text-center">
+                              <div class="bookmark-content">
+                                <div class="bookmark-icon">
+                                  <ion-icon name="people-outline"></ion-icon>
+                                </div><span>Free Trial 🎉
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="text-center">
+                          <a class="flip-btn f-w-700" id="flip-btn" href="invest-friend.html">Refer & Earn</a></li>
+                      </ul>
+                    </div>
+                    <div class="back">
+                      <ul>
+                        <li>
+                          <div class="bookmark-dropdown flip-back-content">
+                            <input type="text" placeholder="search...">
+                          </div>
+                        </li>
+                        <li><a class="f-w-700 d-block flip-back" id="flip-back" href="javascript:void(0)">Back</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="mode">
+                <ion-icon name="sunny-outline"></ion-icon>
+  
+              </div>
+            </li>
+            <li class="cart-nav onhover-dropdown">
+              <div class="cart-box">
+                <ion-icon name="archive-outline"></ion-icon>
+                
+                <span class="badge rounded-pill badge-success">2</span>
+              </div>
+              <div class="cart-dropdown onhover-show-div">
+                <h6 class="f-18 mb-0 dropdown-title">Invest in Commodities</h6>
+                <ul>
+                  <li>
+                    <div class="media">
+                      <img class="img-fluid b-r-5 me-3 img-60" src="assets/images/btc/post-1" alt="">
+                      <div class="media-body"><span> <strong>$GEVO (Gevo Inc) 🚀</strong> GEVO's performance has been on fire, with a remarkable +25% surge in the past 30 days
+                      </span>
+                      </div>
+                      <div class="close-circle">
+                        <a class="bg-danger" href="#">
+                          <ion-icon name="close-outline"></ion-icon>
+                      </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media"><img class="img-fluid b-r-5 me-3 img-60" src="assets/images/btc/post-2" alt="">
+                      <div class="media-body"><span> <strong>❇️ Global equities</strong> 👋 Evening guys, how are we getting on after the first day of this new week? 🤖 Noticed this headline out of $RBLX (Roblox Corp.) today, courtesy of Bloomberg.</span>
+                        <div class="qty-box">
+                        </div>
+                      </div>
+                      <div class="close-circle">
+                        <a class="bg-danger" href="#">
+                          <ion-icon name="close-outline"></ion-icon>
+                        </a></div>
+                    </div>
+                  </li>
+                  <li class="text-center">
+                    <a class="d-block mb-3 view-cart f-w-700" href="#">More</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="onhover-dropdown">
+              <div class="notification-box">
+                <ion-icon name="mail-outline"></ion-icon>
+  
+                <span class="badge rounded-pill badge-secondary">4 </span>
+              </div>
+              <div class="onhover-show-div notification-dropdown">
+                <h6 class="f-18 mb-0 dropdown-title">Notitications                               </h6>
+                <ul>
+                  <li class="b-l-primary border-4">
+                    <p>New Login Details <span class="font-danger">Now</span></p>
+                  </li>
+                  <li class="b-l-success border-4">
+                    <p>Earn $20 on your first deposit<span class="font-success">Now</span></p>
+                  </li>
+                  <li class="b-l-secondary border-4">
+                    <p> Verify your account now!<span class="font-secondary">3 hr</span></p>
+                  </li>
+                  <li class="b-l-warning border-4">
+                    <p>Updates your account ID<span class="font-warning">3 hr</span></p>
+                  </li>
+                  <li><a class="f-w-700" href="#">Check all</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="profile-nav onhover-dropdown pe-0 py-0">
+              <div class="media profile-media">
+                <ion-icon class="b-r-10" style="font-size: 30px;" name="person-circle-outline"></ion-icon>
+                <div class="media-body"><span>Emay Walter</span>
+                  <p class="mb-0">Admin <i class="middle fa fa-angle-down"></i></p>
+                </div>
+              </div>
+              <ul class="profile-dropdown onhover-show-div">
+                <li><a href="settings-profile.html">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                  <span>Account </span></a></li>
+                <li><a href="chat.html">
+                  <ion-icon name="mail-unread-outline"></ion-icon>
+                  <span>Inbox</span></a></li>
+                <li><a href="settings-security.html">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                  <span>Settings</span></a></li>
+                <li><a href="help.html">
+                  <ion-icon name="cog-outline"></ion-icon>
+                  <span>FAQ</span></a></li>
+                <li><a href="login.html">
+                  <ion-icon name="exit-outline"></ion-icon>
+                 <span>Log in</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <script class="result-template" type="text/x-handlebars-template">
+          <div class="ProfileCard u-cf">                        
+          <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
+          <div class="ProfileCard-details">
+          <div class="ProfileCard-realName">{{name}}</div>
+          </div>
+          </div>
+        </script>
+        <script class="empty-template" type="text/x-handlebars-template"><div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div></script>
+      </div>
+    </div>
+    <!-- Page Header Ends                              -->
+    <!-- Page Body Start-->
+    <div class="page-body-wrapper">
+          <!-- Page Sidebar Start-->
+          <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
+            <div>
+              <div class="logo-wrapper">
+                <a href="index.html">
+                  <img class="img-fluid for-light" src="assets/images/logo/logo.png" alt="">
+                  <img class="img-fluid for-dark" src="assets/images/logo/logo_dark.png" alt="">
+                </a>
+                <div class="back-btn">
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="toggle-sidebar">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid status_toggle middle sidebar-toggle"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>              </div>
+              </div>
+              <div class="logo-icon-wrapper">
+                <a href="dashboard.html">
+                <img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a>
+              </div>
+  
+              <nav class="sidebar-main">
+                <div class="left-arrow" id="left-arrow">
+                  <i data-feather="arrow-left"></i></div>
+                <div id="sidebar-menu">
+                  <ul class="sidebar-links" id="simple-bar">
+                    <li class="back-btn">
+                      <a href="dashboard.html">
+                      <img class="img-fluid" src="assets/images/logo/logo-icon.png" alt="">
+                    </a>
+                      <div class="mobile-back text-end">
+                        <span>Back</span>
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                      </div>
+                    </li>
+                    <li class="pin-title sidebar-main-title">
+                      <div> 
+                        <h6>Pinned</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6 class="lan-1">MAIN MENU
+                        </h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <label class="badge badge-light-primary">3</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        
+                        <ion-icon name="home-outline"></ion-icon>
+                      
+                        <span class="lan-3">Dashboard  </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a class="active" href="dashboard.html">Dashboard</a></li>
+                        <li><a  href="wallet.html">Wallet</a></li>
+                        <li><a href="buy-sell.html">Buy/Sell</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6 >WALLET</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-primary">3</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="wallet-outline"></ion-icon>
+                        <span>Deposit           </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="card-deposit.html">Credit or Debit Card</a></li>
+                        <li><a href="bank-deposit.html">Bank Account</a></li>
+                        <li><a href="crypto-deposit.html">Crypto Currency</a></li>
+                      </ul>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-secondary">New</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span>NFT           </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="NFT.html">NFT</a></li>
+                        <li><a href="create-nft.html">Create NTF</a></li>
+                        <li><a href="collection-nft.html">Collections</a></li>
+                      </ul>
+                    </li>
+  
+  
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="transaction.html">
+                      <ion-icon name="shuffle-outline"></ion-icon>
+                        <span>Transaction</span></a>
+                      </li>
+  
+  
+                      <li class="sidebar-list">
+                        <i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="withdraw.html">
+                          <ion-icon name="cash-outline"></ion-icon> 
+                           <span>Withdraw</span></a>
+                        </li>
+  
+                        <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                          <label class="badge badge-light-primary">2</label>
+                          <a class="sidebar-link sidebar-title" href="#">
+                            <ion-icon name="swap-horizontal-outline"></ion-icon>
+                            <span>Send/Receive           </span></a>
+                          <ul class="sidebar-submenu">
+                            <li><a href="send-money.html">Send</a></li>
+                            <li><a href="request-money.html">Receive</a></li>
+                          </ul>
+                        </li>
+  
+  
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>Investment</h6>
+                      </div>
+                    </li>
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="investment-plan.html">
+                        <ion-icon name="leaf-outline"></ion-icon>
+                        <span>Investment Plan</span></a>
+                      </li>
+                      <li class="sidebar-list">
+                        <i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="investment-profit.html">
+                          <ion-icon name="pulse-outline"></ion-icon>
+                          <span>Investment Profit</span></a>
+                        </li>
+                        <li class="sidebar-list">
+                          <i class="fa fa-thumb-tack"></i>
+                          <a class="sidebar-link sidebar-title link-nav" href="payout.html">
+                            <ion-icon name="calendar-number-outline"></ion-icon>
+                            <span>Payout</span></a>
+                        </li>
+  
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>Apps</h6>
+                      </div>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                      <label class="badge badge-light-primary">2</label>
+                      <a class="sidebar-link sidebar-title" href="#">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                        <span>Chat </span></a>
+                      <ul class="sidebar-submenu">
+                        <li><a href="chat.html">Private Chat</a></li>
+                        <li><a href="letter-box.html">Email</a></li>
+                      </ul>
+                    </li>
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="notifications.html" >
+                        <ion-icon name="notifications-outline"></ion-icon>
+                      <span>Notifications</span></a>
+                    </li>
+  
+                   
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                      <ion-icon name="qr-code-outline"></ion-icon>
+                        <span>Payment method</span></a>
+                      </li>
+  
+                    <li class="sidebar-list">
+                      <i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="contact.html">
+                        <ion-icon name="mail-unread-outline"></ion-icon>
+                        <span>Contact Us</span></a>
+                      </li>
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="invest-friend.html" >
+                        <ion-icon name="navigate-outline"></ion-icon>
+                      <span>Refer & Earn</span></a></li>
+  
+                      
+                    <li class="sidebar-main-title">
+                      <div>
+                        <h6>ACCOUNT
+                        </h6>
+                      </div>
+                    </li>
+                   
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="settings-profile.html">
+                        <ion-icon name="settings-outline"></ion-icon>
+                        <span>Settings</span></a>
+                      </li>
+  
+                      <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="settings-notifications.html">
+                          <ion-icon name="notifications-off-outline"></ion-icon>
+                          <span>Notifications Settings</span></a>
+                        </li>
+  
+                      
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="settings-security.html">
+                        <ion-icon name="shield-outline"></ion-icon>
+                        <span>Security</span></a>
+                      </li>
+  
+  
+  
+                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                      <a class="sidebar-link sidebar-title link-nav" href="faq.html">
+                        <ion-icon name="help-circle-outline"></ion-icon>
+                        <span>FAQ</span></a>
+                      </li>
+  
+                      <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                        <a class="sidebar-link sidebar-title link-nav" href="#Logout" data-bs-toggle="modal">
+                          <ion-icon name="exit-outline"></ion-icon>
+                          <span>Logout</span></a>
+                        </li>
+    
+    
+                        <!--down style-->
+                        <div class="sidebar-widgets">
+                          <div class="mx-25 mb-30 p-30 text-center bg-primary-light rounded5">
+                            <img src="assets/images/btc/trophy.png" alt="">
+                            <h4 class="my-3 fw-500 text-uppercase text-primary">Start Trading</h4>
+                            <span class="fs-12 d-block mb-3 text-black-50">Offering discounts for better online a store can loyalty weapon into driving</span>
+                            <a href="investment-plan.html" class="waves-effect waves-light btn btn-sm btn-primary mb-5">Invest Now</a>
+                          </div>
+                          </div>
+                          <style>
+                            .fw-500 {
+                                font-weight: 500;
+                                font-size: 18px;
+                            }
+                            .theme-warning .bg-primary-light {
+                              background-color: #fff8ea !important;
+                              color: #ffa800;
+                          }
+                          .fs-12 {
+                              font-size: 12px;
+                          }
+                          </style>
+                          <!--end of down nav-->
+                        
+                  </ul>
+                </div>
+                <div class="right-arrow" id="right-arrow">
+                  <i data-feather="arrow-right"></i>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-6">
+                  <h4>FAQ</h4> 
+                </div>
+                <div class="col-6">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="dashboard.html">                                       
+                      <ion-icon name="home-outline"></ion-icon>
+                      </a></li>
+                    <li class="breadcrumb-item">Account</li>
+                    <li class="breadcrumb-item active">FAQ</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="container-fluid py-4"> 
+            <div class="row" >
+              <div class="col-lg-12">
+                  <div class="card">
+                      <div class="card-body" >
+
+                    
+                        <div class="container">
+                            <h2 class="text-9 text-center">Popular Topics</h2>
+                            <p class="text-4 text-center mb-5">Lisque persius interesset his et, in quot quidam persequeris.</p>
+                            <div class="row">
+                              <div class="col-md-10 mx-auto">
+                                <div class="row gx-5">
+                                  <div class="col-md-6">                
+                                    <div class="accordion accordion-flush" id="popularTopics">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading1">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">How do I withdraw funds from my account?</button>
+                                        </h2>
+                                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#popularTopics" >
+                                          <div class="accordion-body"> 
+                                           <span style="font-family: 'Courgette', cursive;">
+                                            Withdrawal to Crypto wallet is available in selected countries only. To see if this feature is available for you, visit the Withdraw section in your account.
+                                          </span>
+                                          <br>You can <strong> send money from your available  Fiat balance to an external Bitcoin (BTC), Ethereum (ETH), Tether (USDT) or USD Coin (USDC) crypto wallet 
+                                          </strong>
+                                          <br> <span>To make a crypto withdrawal:</span> 
+                                                <ul>
+                                                  <li>1. Visit the Withdraw section in your  account and select Crypto Wallet.</li>
+                                                  <li>2. Select the cryptocurrency you’d like to withdraw to, your fiat balance you wish to withdraw from, enter the send amount, and crypto address. </li>
+                                                  <li>3. Review the transaction Summary and Confirm.</li>
+                                                  <li>4. You may be asked to confirm the transaction with your six-digit account PIN. </li>
+                                                </ul>
+                                           <br> <span>Note:</span>     
+                                                <ul>
+                                                  <li>You can only withdraw fiat balance (EUR, USD, etc.) to an external crypto wallet. If you want to withdraw your crypto balance, first sell it for fiat via our crypto trade page.</li>
+                                                  <li>We currently support Bitcoin (BTC) withdrawals to Native SegWit (bech32) addresses (starting with ‘bc1’), Nested SegWit addresses (starting with ‘3’) and 'Legacy' BTC addresses (starting with ‘1’), as well as Ethereum (ETH), Tether (USDT) and USD Coin (USDC) withdrawals over the ETH (ERC-20) network</li>
+                                                  <li>Blockchain transactions cannot be reversed. Ensure you enter a valid crypto address when executing the withdrawal. </li>
+                                                  <li>Your account should be fully verified to perform a crypto withdrawal.</li>
+                                                </ul>
+                                             <br><strong>For customers with registration country Italy:</strong> 
+                                             rom 15 July 2022, to perform crypto transactions, you are required to verify your account (if you haven’t done so already) and fill out a personal information form accessible from the Crypto section in your account. If you are an Italian citizen, you would also have to provide your Tax ID. 
+                                             <br>Rest assured that your personal information will be treated in accordance with our Privacy Policy and only for the purpose of providing you with our services as required by regulators.  
+                                             <br><strong>What are the fees?</strong> 
+                                             <br>All applicable fees will be displayed via the transaction summary screen. A network fee may also be applied, which is beyond our control. It is paid to crypto miners and validators for verifying transactions on the blockchain and keeping the network secure. This fee is deducted from the total amount of your withdrawal so you may receive a lesser amount than expected.
+                                             <br><strong>My balance isn’t available for sending money to a crypto wallet. What should I do?</strong> 
+                                             <br>Money deposited with Bank Transfer or Mastercard can’t be withdrawn to a crypto wallet. 
+                                             <br> <strong>How long does it take to receive the transfer?</strong>
+                                             <br>Blockchain transactions usually take between 5 and 60 minutes to appear in the recipient crypto wallet. 
+                                             <br>In rare cases, your transaction may remain pending for up to 24 hours. If the withdrawal fails, we will notify you onscreen, or send an e-mail notification once the transaction status is updated.
+                                             <br><span style="font-family: 'Courgette', cursive;">
+                                              Cryptocurrencies are complex, unregulated, without consumer or financial protections. Capital Gains Tax or other taxes may apply. Prices are volatile; only risk what you can afford to lose.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading-2">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                            How can I send money to e-mail?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body"> 
+                                            Send money instantly to friends and family members with just their email address. Simply follow the steps below:
+                                            <br> <ul>
+                                              <li>Select ICMarket  to ICMarket  from the Transfer section of your ICMarket  account.</li>
+                                              <li>Enter the recipient’s email or select a person from your recent recipients’ list. Make sure you enter the correct e-mail address. 
+                                              </li>
+                                              <li>Enter the amount. If the total amount, including the fee, is bigger than what you currently have as an available balance, you'll get the option to pay with a card directly. Either select an already registered card or add a new one.
+                                              </li>
+                                              <li>Check the summary of the transaction and confirm it with your PIN.
+                                              </li>
+                                            </ul> <br>
+                                            <span>
+                                              If the recipient doesn’t have a ICMarket account, they will get an email invitation to register within the next 14 days to receive the money. In the meantime, the payment will remain pending. Once the recipient signs up, its status will become processed. If the recipient doesn't register, the transaction will be automatically cancelled, and the money will return to your balance
+                                            </span>
+                                            <br> <span>To send money successfully, make sure that:</span>
+                                              <br> <ul>
+                                                <li>there are no typos in the recipient's email address, as it may result in delays or wrong recipient;</li>
+                                                <li>your internet connection is stable, you're not using a proxy or VPN connection, and that the pop-ups on your browser are enabled;
+                                                </li>
+                                                <li>the recipient’s account is open and active;
+                                                </li>
+                                                <li>you send funds to ICMarket customers only if you know and trust them, as once a Send Money transaction is processed, it can't be cancelled or returned.
+                                                </li>
+                                              </ul>
+                                              <br><strong>What are the fees and the limits?</strong>
+                                              <br><span>Your send limits and fees will be displayed during the transaction. For more information about our fees, visit our Fees page. Note that for transactions involving currency conversion, an additional fee applies.
+                                              </span>
+                                              <br><strong>I can't complete a ICMarket to ICMarket payment. Why?
+                                              </strong><br> <span>This may happen due to the following:
+                                              </span><br> <ul>
+                                                <li>The recipient’s account is temporarily disabled. Contact them to confirm their account is in good standing or try the transaction a bit later with a different amount.</li>
+                                                <li>You're entering an invalid e-mail address. Confirm the e-mail with the recipient.</li>
+                                                <li>You don’t have enough balance. If the amount you wish to transfer is bigger than your account balance, you can choose one of your registered credit/debit cards to complete the payment.</li>
+                                                <li>Your account is temporarily restricted for outgoing payments. Follow the on-screen instructions to resolve the issue.</li>
+                                              </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading2">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">I forgot the password for my account.</button>
+                                        </h2>
+                                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body"> 
+                                            <span>How do I reset my ICMarket password?
+                                            </span> <br> If you have access to your  account, you can easily reset your password by following these steps:
+                                            <br><ul>
+                                              <li>Log into your account using your current credentials</li>
+                                              <li>Navigate to the Settings section and scroll down to the Security tab.</li>
+                                              <li>Next to Password click Change. You'll be asked to confirm your current password and then enter the new one. Make sure to enter the correct new password, as you won't be asked to confirm it</li>
+                                            </ul>
+                                            <br><strong>If you wish to log in via web but you have forgotten your password, follow the bellow steps:</strong>
+                                            <ul>
+                                              <li>Upon login, click Forgot your password?</li>
+                                              <li>You'll be asked to confirm your registered email address - make sure to enter your primary one, if you've registered more than one.</li>
+                                              <li>An automated email will be sent to your email address with a link to log in. Follow the link and enter your new password. Keep in mind that the email link is valid for 24 hours only, so make sure you check your inbox on time.</li>
+                                            </ul>
+                                            <br><span>If, for some reason, you can't complete the automated procedure, simply contact us via one of the available contact channels below, and our team will make sure to assist you accordingly.</span>
+                                              <br>Our Virtual Assistant Sofia is also available to assist you 24/7 – to start chatting with her, just click the button on the bottom right corner of your screen.
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading3">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">What should you know about withdrawals to Ethereum (ETH) wallets?</button>
+                                        </h2>
+                                        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body">
+                                          <p>Withdrawal to Crypto wallet is available in selected countries only. To see if this feature is available for you, visit the Withdraw section in your account. 
+                                            <br>With the Crypto Wallet option accessible in the Withdraw section of your ICMarket account, you can instantly send money from your available fiat balance to an external Ethereum (ETH) crypto wallet address. 
+                                            <br>Note: Withdrawals of cryptocurrency to a crypto wallet are not available. If you want to withdraw your crypto balance, first sell it for fiat money via our crypto trade service.
+                                            <br><strong>How are withdrawals to ETH wallet processed?</strong>
+                                            <br>Our external cryptocurrency exchange partner generally processes transfers to ETH wallets as internal transactions. </p>  
+                                            <br> <br>
+                                            <p><strong>What does internal transaction mean?</strong>
+                                            <br>Internal transactions are transfers of ETH that are carried out through a smart contract as an intermediary. Despite the name, these are not actual transactions, i.e. they do not exist on the ETH blockchain - they are value transfers that were initiated by executing a smart contract.
+                                            <br>As a result, internal transactions may not be displayed in the Ethereum wallet you're using as they're not broadcast to the blockchain in the same way as normal ETH transactions are. However, this does not affect your actual ETH wallet balance - when you receive an internal ETH transfer, your wallet balance is updated, same as with a normal transfer.  
+                                            <strong>
+                                              What are the benefits of internal transactions?
+                                            </strong>
+                                            </p>
+                                            <ul>
+                                              <li>You usually pay less gas fee</li>
+                                              <li>Your transfer gets processed faster</li>
+                                            </ul><br><br>
+                                            <p><strong>How can I trace my withdrawal if it does not exist on the blockchain?</strong>
+                                            <br>When viewing an address on Etherscan, this type of transaction will be shown under the Internal Transactions tab.
+                                            <br>Cryptocurrencies are complex, unregulated, without consumer or financial protections. Capital Gains Tax or other taxes may apply. Prices are volatile, only risk what you can afford to lose.  
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading4">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            How can I update and verify my email address?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body"> 
+                                          <p>With ICMarket you can have up to 5 registered emails at a time. To add a new email address, go to Settings > Personal details and click 'Add a new email'.
+                                            <br>While you can use your email address without verifying it, to make a secondary email a primary one, you'll need to verify it first (available only via a web browser). To do this, follow the steps bellow:
+                                          </p><br>
+                                          <ul>
+                                            <li>In the Settings section of your account click Personal details.</li>
+                                            <li>Click Verify next to your email address.</li>
+                                            <li>An automated email will then be sent to your registered email address containing a verification link, valid for 15 minutes. Click the button to complete the verification.</li>
+                                          </ul><br>
+                                          <p>To make a verified secondary email a primary one, go to Settings > Personal details and click 'Make primary' next to the email address. You'll then receive an email with a one-time password (6-digit code), valid for 15 minutes. Go back to your account and confirm the code to make the email primary.</p>
+                                          <br><strong>I can't verify my email address. What should I do?</strong>  
+                                          <br><br> <p>If you’re having trouble verifying your email address, check the following:</p>
+                                          <ul>
+                                            <li>Check your spam filters to make sure our confirmation email hasn't landed in your Spam inbox.</li>
+                                            <li>Make sure you're using a valid email address format.</li>
+                                            <li>Double-check the spelling of the email address you've submitted.</li>
+                                            <li>Add the ICMarket domain as a trusted sender domain in your email client.</li>
+                                             <li>Use popular email domains, such as Gmail, Outlook, Yahoo etc. to ensure you can receive automated emails from ICMarket.</li>
+                                          </ul><br>
+                                          <p>If you've tried all of these steps and you still can't verify your email address, contact us via one of the available channels below.
+                                           
+                                          </p><br><strong>I've forgotten my email address. What should I do?</strong>
+                                          <br>If you've forgotten your registered email address, simply contact the ICMarket Help Team. We’ll ask you a few questions to help us locate your account, authenticate you and give you the information you need.
+                                          <br>You can get in touch with us by clicking on one of the available contact channels below and our team will make sure to assist you accordingly. 
+                                          <br>Note: If you don't have access to the email address you've registered at ICMarket, you'll need to have a new email address ready and mention it to the agent assisting you.
+                                          <br>In case your email address needs to be changed, you'll be asked to confirm your identity first by submitting pictures of your ID and your face via email. 
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading5">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">What Is the crypto Profit / Loss indicator?</button>
+                                        </h2>
+                                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body"> 
+                                            <p>The service is currently available in selected countries only. If you see a Crypto section in your account, this means that the service is available for you.
+                                              <br>The Profit / Loss functionality gives you a valuable insight on the gains (or losses) you would get if you sell certain cryptocurrency at a certain moment. The Profit / Loss represents the difference between the market value and the average buy price of your balance.
+                                              <br>Тhe Average Buy Price is the median price of all your buy trades since your first buy until you sell the entire balance of a designated cryptocurrency. Once you sell your entire balance of a certain crypto, the average buy price will no longer be taken into consideration for future trades and will be reset. If you start accumulating balance of the same crypto currency the average buy price will again start to be calculated. The Crypto obtained via the Money Transfer service is excluded from the calculation.
+                                              <br>As the Profit / Loss functionality is based on the difference between the market value and the average buy price of your balance as described above, you will see as an indicator Profit if at the time of the exchange you are gaining from the trade: 
+                                               <strong>Cryptocurrencies are complex, unregulated, without consumer or financial protections. Capital Gains Tax or other taxes may apply. Prices are volatile; only risk what you can afford to lose.</strong>
+                                            </p>
+
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading5">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse005" aria-expanded="false" aria-controls="collapse005">
+                                            I have received a suspicious email. What should I do?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse005" class="collapse" aria-labelledby="heading005" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body">
+                                            <p><strong>What is phishing?</strong><br>
+                                              Phishing is the illegal practice of obtaining sensitive information, such as your account number, password, credit card or bank account numbers, etc.
+                                              <br>Unfortunately, ICMarket is occasionally the victim of email scammers who seek to trick our customers into sharing confidential personal details that the scammers can then use to defraud the customers. It usually works like that: you receive an e-mail from a well-known brand, and then you are “tempted” to click a link, or share your account information.
+                                              <br>To spot potential threats more easily, use an email filter that moves external emails to a separate folder. Check out how to create rules for the popular email providers: Gmail, Outlook, Yahoo.
+                                            </p><br>
+                                            <strong>What to look for?</strong><br>
+                                            <span>Below are a few pointers in order to protect yourself against phishing e-mails:</span>
+                                            <ul>
+                                              <li>Unprofessional emails with grammatical or spelling errors</li>
+                                              <li>Free money offers that do not require you to do anything</li>
+                                              <li>Links that look valid but take you to a spoof address. Do not click any links that look suspicious</li>
+                                              <li>E-mails requesting you to share your ICMarket PIN or password</li>
+                                            </ul>
+                                            <br>
+                                            <p>Never respond to these emails and do not follow the instructions contained in them. ICMarket would never ask you for your full credentials or any sensitive financial data. Don't click on any links or download any attachments!
+                                              <br>If you think you’ve received a phishing email, please fill our online form by clicking the contact channel below, selecting the Security category and issue: I would like to report phishing/scam, and let us know the details. To investigate, we'll also need a copy of the original email you received. You can either download the original email and send it as an attachment, or directly contact us via the available channel below.
+                                            </p>
+                                            
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading51">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse51" aria-expanded="false" aria-controls="collapse51">
+                                            My account is being closed. What's going on?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse51" class="collapse" aria-labelledby="heading51" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body"> 
+                                            <p>ICMarket reserves the right to close your account at any time, with or without notice, due to the following reasons:</p>
+                                               <ul>
+                                                <li>if your personal details cannot be verified;</li>
+                                                <li>if you already have another account with ICMarket;</li>
+                                                <li>if you registered fake details;</li>
+                                                <li>if we have valid grounds to terminate your membership.</li>
+                                               </ul><br>
+                                            <p>As a regulated financial institution, we are required to verify your personal details. If this is not possible due to incorrect information provided by you, or if you refuse to complete our verification process, your account may be closed with or without prior notice.
+                                              <br>In some cases, your account may be reactivated upon successful verification. Any information about such a decision will be sent to your primary registered email address, unless otherwise specified. 
+                                              <br><strong>Note:</strong> If you created your account as a minor (under 18 years of age), your account will be closed regardless of your current age. Once you reach 18 years, or if you're already of legal age, you may create a new account with a new email address and continue using our services.
+                                              
+                                            </p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading52">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse52" aria-expanded="false" aria-controls="collapse52">
+                                            How do I send crypto to another ICMarket customer?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse52" class="collapse" aria-labelledby="heading52" data-bs-parent="#popularTopics">
+                                          <div class="accordion-body">
+                                            <span>The service is currently available in selected countries only.
+                                            </span><br>You can instantly send cryptocurrency to another ICMarket customer from any of your available crypto balances. If the recipient doesn’t have a ICMarket account yet, we’ll send them an email invitation with a link to sign up and claim the transfer.
+                                            <br>There are two ways how you can send crypto to another ICMarket customer: 
+                                            <br> <strong>Option 1:</strong><br>
+                                            <ul>
+                                              <li>Go to the Transfer section in your account and select ICMarket to ICMarket.</li>
+                                              <li>Enter the recipient’s email address.</li>
+                                              <li>From the Currency drop-down menu choose one of your available crypto-balances and enter the amount. The minimum/maximum send limit is calculated dynamically and indicated onscreen.</li>
+                                              <li>Applicable fees, if any, are displayed in the Transfer Summary. Review and finalize your transfer</li>
+                                            </ul>
+
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-6">
+                                    <div class="accordion accordion-flush" id="popularTopics2">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading6">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How Can I View My Payments History?</button>
+                                        </h2>
+                                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#popularTopics2" >
+                                          <div class="accordion-body">
+                                          <p><strong>You can review your transactions from the Transactions section in your ICMarket account. The section offers you numerous features: </strong>
+                                          </p><br><ul>
+                                            <li><strong>check your transaction details:</strong>to obtain information about a recent payment (such as status, transaction ID, fees etc.), simply click on the transaction.</li>
+                                            <li><strong>repeat a successful transaction:</strong>save time by clicking on the transaction and then on the Repeat button under the payment amount. You can make the same transaction or change some of the details, such as amount or recipient.</li>
+                                            <li>Enter the price at which you want the order to be executed and the amount you want to spend or receive. You can also choose to create an order for a percentage of your available balance.</li>
+                                            <li>Press Create order. </li>
+
+                                          </ul>  <br>
+                                          <strong>Note:</strong>
+                                          <br><ul>
+                                            <li>You can trade with your Bitcoin balance only if you already have such available.</li>
+                                            <li>Some of the available cryptocurrencies (DSH, KNC, ATO) can only be exchanged against Bitcoin.</li>
+                                            <li>On the price chart you can see the fluctuation of the price for a date range of an hour, day, week, month or a year. You can select the date range from the drop-down menu within the chart.</li>
+                                            <li>Once a limit order is executed, the list of current limit orders will be automatically updated and the order in question will be disabled.</li>
+                                            <li>You can review, deactivate (from the Status button) and/or delete (from the trash can icon) your limit orders at any time via the Portfolio or the Trade tab.Under the Trade tab you can only review and manage the alerts as per the currency selection you’ve made.</li>
+                                    
+                                          </ul><br><p><strong>What are the fees and the limits?</strong><br>
+                                            You can check the fees and the limits within the Trade tab of the Crypto section.
+                                            <br>For more information about the fees visit our Cryptocurrency page.  
+                                            <br>If you exchange Bitcoin for another cryptocurrency, the deducted fee will be collected in Bitcoin.
+                                            <strong>Cryptocurrencies are complex, unregulated, without consumer or financial protections. Capital Gains Tax or other taxes may apply. Prices are volatile; only risk what you can afford to lose.</strong>
+                                          
+                                          </p>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading7">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">How can I get a refund of my payment?</button>
+                                        </h2>
+                                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#popularTopics2" >
+                                          <div class="accordion-body"> 
+                                          <p>We can offer refunds on a case-by-case basis, depending on the type of payment, the status of your account and other factors.
+                                          </p>  
+                                          <br><strong>Deposits</strong><br>
+                                          <span>Depending on the funding method, a refund may be executed to:</span>
+                                          <ul>
+                                            <li>your credit/debit card: a chargeback. You have the right to request the reversal of a payment from your bank in the case of unauthorized transactions or non-delivered goods/services, thus initiating our chargeback process. This includes both wallet deposits and gateway payments. For more information, please read section 8.3 of our Terms & Conditions.</li>
+                                            <li>your bank account: a reversal. Such a deposit may be automatically returned if you didn’t include your customer ID as reference, if you made a cash deposit or if you used another person’s bank account. In such cases, the original amount will be returned to the bank account it was sent from. </li>
+                                          </ul><br>
+                                          <p>Card refunds usually take up to 7 days to be processed. The timeframe for reversing a bank account deposit depends on the processing bank.</p>
+                                          <br><strong>Withdrawals</strong><br>
+                                          <p>If your card/bank withdrawal is returned by the recipient bank, we’ll automatically credit the amount back to your wallet. The timeframe depends on all involved parties, including the processing banks. 
+                                            <br>We don’t charge any additional fees for processing a returned withdrawal. However, the amount you receive back may be less than the requested one due to currency conversion and/or processing fees applied by the bank(s).
+                                          </p>
+                                          <br><br><span>Withdrawals to crypto wallets are non-refundable.</span>
+                                          <strong>Transfers to other ICMarket customers</strong><br>
+                                          <p>ICMarket to ICMarket transfers are considered final and irreversible once the transaction has been fully processed. Please contact the recipient to resolve the issue directly.
+                                            <br>If the status is ‘Pending’, you can cancel the transfer from the Transactions section in your account. Check the related articles below for more information.
+                                          </p>
+                                          <br><p><strong>Merchant payouts/online payments</strong>
+                                          <br>Such transfers are non-refundable once the transaction has been processed. Please contact the recipient to resolve the issue directly.
+                                          <br>If your payment was declined or is missing, check the related articles below for more information.
+                                        </p><br>
+                                         <p><strong>ICMarket Card purchases</strong>
+                                        <br>Please contact the merchant directly to request a refund. Keep in mind that the transaction may take 7-30 calendar days to get settled. Check the related articles below for more information.
+                                      </p><br>
+                                      <p><strong>My account is restricted/permanently closed. How can I get a refund of my balance?</strong>
+                                      <br>If you have money left in your account, we may offer you a refund depending on your specific case. Usually, we require a copy of your recent bank statement, so it's best if you have it ready to speed up the process. Note that the document should:
+                                    </p><br><ul>
+                                      <li>show your full names and full bank account details (IBAN, bank/sort code etc.);</li>
+                                      <li>have been issued within the past 90 days;</li>
+                                      <li>be signed or stamped by your bank.</li>
+                                    </ul>
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading07">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse07" aria-expanded="false" aria-controls="collapse07">
+                                            What are the fees for using ICMarket ?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse07" class="accordion-collapse collapse" aria-labelledby="heading07" data-bs-parent="#popularTopics2" >
+                                          <div class="accordion-body"> 
+                                            <strong>
+                                              All the fees related to your account can be found on our Fees page or in your account. 
+                                              <br>Is there a fee for opening a ICMarket account?
+                                            </strong>
+                                            <br><p>Opening a ICMarket account is completely free and incredibly easy! Registration takes less than a minute and you can start sending and receiving funds immediately.
+                                              <br>Should you wish to, you can close your ICMarket account at any time, free of charge.
+                                            </p>
+                                            <strong> What are the fees for depositing/ withdrawing funds?</strong>
+                                            <br><span>ICMarket aims to provide free or low-cost local deposit and withdrawal options for all supported countries.</span>
+                                            <br><ul>
+                                              <li>If you do not have a ICMarket account yet, visit our dedicated Fees page and select your country of residence to view the available deposit/ withdrawal methods and applicable costs</li>
+                                              <li>In case you already have an account, check the Deposit/ Withdraw sections, and find the available options, together with the applicable fees and charges, if any.</li>
+                                           </ul><br>
+                                           <P><strong> What are the fees for sending/ receiving funds?</strong>
+                                            <br>Receiving funds and paying online on merchants’ websites with your ICMarket balance is free of charge. You can send money to other ICMarket customers for a small fee or for free, depending on your User Level or VIP Level.
+                                           </P><br>
+                                           <p><strong>What are the fees for the ICMarket Prepaid Mastercard® card?</strong>
+                                          <br>All the fees and charges related to your ICMarket Prepaid Mastercard® can be found here. VIP ICMarket apply for their ICMarket Card for free.
+                                          </p>
+                                          <p><strong>Is there any foreign exchange fee?</strong>
+                                          <br>For transactions involving currency conversion ICMarket adds a fee to our wholesale exchange rates. For more information, visit the dedicated page.</p>
+
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading09">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse09" aria-expanded="false" aria-controls="collapse09">
+                                            What are the ICMarket card fees?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse09" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                            <span>The ICMarket Prepaid Mastercard® is available only to residents of authorized European Economic Area (EEA) countries and the UK.</span>
+                                            <br>
+                                            <span>Most services available with your ICMarket Card are free of charge:</span>
+                                            <br><ul>
+                                              <li>FREE to pay for goods in shops, restaurants and online.
+                                              </li>
+                                              <li>FREE balance enquiries.
+                                              </li>
+                                              <li>FREE online statements.
+                                              </li>
+                                              <li>FREE PIN-retrieval.
+                                              </li>
+                                            </ul>
+                                            <br><span>Apart from our annual fee (€10), we only charge for ATM usage (1.75%) and foreign exchange.
+                                            </span>
+                                            <p>We may suspend your card if you fail to pay the annual fee. If this happens, top up your primary account balance. Our system will automatically debit the fee and enable your card within 24 hours.</p>
+                                            <br><span>These fees remain the same whether you are at home or abroad.
+                                            </span><br><strong>Fees may differ or may not apply, depending on a customer's VIP status. You can see a full list of our charges in the ICMarket Card section of the ICMarket website.</strong>
+                                         
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading8">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">Do you charge a service fee for not using my ICMarket account?</button>
+                                        </h2>
+                                        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#popularTopics2" >
+                                          <div class="accordion-body">
+                                            <p>If you don't use your ICMarket account for 6 months and keep a balance in it, you'll be charged a monthly service fee of 5 Euro (or the equivalent in your account currency).
+                                             <br>The fee will be deducted monthly from the available funds in your account until your balance is zero. ICMarket will not charge your credit card or bank account and will not cause your account to go into a negative balance.
+                                             <br>To avoid being charged a service fee, simply sign in to your ICMarket account or make a transaction.
+                                             <br>Note that we'll also apply the fee if you've closed your account with some leftover balance.
+                                            </p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading9">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">Can I add funds to my ICMarket account using somebody else's card or bank account?</button>
+                                        </h2>
+                                        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                          <p>No, the financial details you register on ICMarket should be in your name only.
+                                            <br>Deposits into your ICMarket account will only be accepted if the credit card or bank account used to top up your account is in your name, and therefore, you cannot directly add funds to your ICMarket account using somebody else's card or bank account.
+                                            <br>Company/business cards and bank accounts are also considered third-party payment instruments; and you cannot use them to upload funds into your ICMarket account.
+                                          </p>  
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading29">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse29" aria-expanded="false" aria-controls="collapse29">What is a crypto limit order?</button>
+                                        </h2>
+                                        <div id="collapse29" class="accordion-collapse collapse" aria-labelledby="heading29" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                          <span>The service is currently available in selected countries only. If you see a Crypto section in your account, this means that the service is available for you.
+                                            <br>A Limit order allows you to buy or sell crypto for a certain, predefined price. When the desired price condition is reached the exchange is automatically made.
+                                          </span> 
+                                          <br> 
+                                          <strong>All fields are editable, thus you can customize your order at your convenience.</strong>
+                                          <br><ul>
+                                            <li>Go to the Trade tab in the Crypto section of your ICMarket account.</li>
+                                            <li>Select Buy or Sell and press Limit order. </li>
+                                            <li>Select the currencies you want to trade from the drop-down menus. You can choose to create an order for Fiat or Bitcoin against other cryptocurrencies.</li>
+                                          </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading10">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">Closing Your Account</button>
+                                        </h2>
+                                        <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                            <p>We hope that you are completely satisfied with the safety and convenience of ICMarket.
+                                            </p>
+                                            <br>However, should you wish to, you can close your  wallet at any time at no cost by logging into your account and going to Settings > Account Settings > Account Status > Close Account.
+                                            <br><strong>Why can't I close my account?</strong>
+                                            <span>You won't be able to close your account on your own if you have any pending transactions, or a balance over 6 EUR (or the equivalent in your currency), including secondary balances and crypto.</span>
+                                              <p>To avoid issues, make sure you have spent all the available funds, and your balance is 0.00 or very close to that amount. 
+                                             <br>If you have crypto balance, first you need to sell your cryptocurrency balance via section Crypto > Trade and then withdraw or spend the outstanding fiat balance.
+                                             <br>If you have any pending transactions, you’ll have to wait for them to get processed or fail first. Check the status of your transaction in the Transactions section.
+                                            </p>
+                                            <strong>Will I be subject to any fees?</strong>
+                                            <p>If you have any Knect loyalty points, you'll lose them once you close your account.
+                                            <br>If you have a Card, it will also be deactivated, and you won't be able to use it any longer 
+                                            <br>Need more help? Please talk to us by clicking the available contact channel below before closing your account.
+                                            </p>
+                                            <span>The ICMarket Prepaid Mastercard® is available only to residents of authorized European Economic Area (EEA) countries and the UK.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading11">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                            Do I need to verify my identity?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                            You can use your  account without verifying your details to send and receive funds up to a limited amount. When you reach this limit, as a regulated financial institution, we are required to verify your identity. Verification increases trust between us. It makes us confident that you are who you say you are and that you’re located where you say you are located.
+                                            <br>An easy way to ensure you have continuous access to all your wallet benefits is to actively complete your identity verification. 
+                                            <br>To verify your identity, we would usually require documentation, such as a picture of your ID and face and/or a proof of your address.
+                                            <br><strong>Note:</strong>  Additional documents may be requested if any details have been changed or if there are any discrepancies between your registration details and the documents you have provided.  
+                                            <br>Please keep in mind that your transactions are subject to certain limits. If you've reached your current limits and your account hasn't yet been verified, we'll ask you to complete the verification process before you can continue with your payments.
+                                            <br>If you have any questions about your limits or the status of your verification, you can check these details within the Settings > Verification section of your account, or check out the related articles below.
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading12">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                            What is a PIN and how can I reset it?
+                                          </button>
+                                        </h2>
+                                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#popularTopics2">
+                                          <div class="accordion-body"> 
+                                           <p><strong>What is PIN Authentication?</strong> <br>
+                                            The PIN Authentication is an additional security feature that helps you increase the security level of your ICMarket account. The PIN is used as an additional challenge when logging in or when you complete a transaction.
+                                          </p>
+                                          <br><p><strong>How to set up my PIN Authentication?</strong>
+                                            In light of the Strong Customer Authentication regulatory requirement you must set up a 6-digit PIN as the final step of your account creation.
+                                          </p>
+                                          <br><p>Important requirements for the PIN:</p><br>
+                                          <ul>
+                                            <li>PIN must be 6 digits</li>
+                                            <li>PIN must not contain 6 repeating digits (e.g. 111111)</li>
+                                            <li>PIN must not contain 6 consecutive ascending or descending digits (e.g. 123456 or 654321)</li>
+                   
+                                          </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="text-center mt-5"><a href="#" class=" text-4">See more topics <i class="fa fa-share" aria-hidden="true"></i></a></div>
+                          </div>
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!--logout item-->
+    <div class="modal fade"   id="Logout" tabindex="-1" aria-labelledby="Logout" aria-modal="true" role="dialog" >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body main-qr-code">
+  
+            <div class="h-screen  flex items-center justify-center">
+              <div class="p-4  rounded-md  text-center overflow-y-auto">
+                  <span class="mt-0 mega-title-badge">
+                    <img src="assets/images/gif/danger.gif" alt="" style="width: 20%;">
+                                  </span>
+          
+                  <h3 class="mb-2 text-2xl font-bold text-gray-800">
+                      Sign out
+                  </h3>
+                  <p class="text-gray-500">
+                      Are you sure you would like to sign out of your account?
+                  </p>
+              
+                  <div class="mt-6 flex justify-center gap-x-4">
+                      <a class="btn btn-secondary"
+                          href="login.html" >
+                          Sign out
+                      </a>
+                      <button class="btn btn-primary close"  data-bs-dismiss="modal" >
+                                                    Cancel
+                                      </button>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--logout end-->
+      
+
+  
+      <style>
+        .accordion .accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
+  background-color: transparent;
+}
+
+.accordion .accordion-header .accordion-button {
+  box-shadow: none;
+  padding: 1rem 1.25rem 1rem 2.25rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.accordion:not(.accordion-flush) .accordion-header .accordion-button {
+  background-color: #2dbe60;
+  color: #fff;
+}
+
+.accordion:not(.accordion-flush) .accordion-header .accordion-button.collapsed {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #4c4d4d;
+}
+
+.accordion .accordion-header .accordion-button:after {
+  position: absolute;
+  content: " ";
+  left: 20px;
+  top: calc(50% + 2px);
+  width: 9px;
+  height: 9px;
+  border-color: #CCC;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-image: none;
+}
+
+.accordion .accordion-header .accordion-button.collapsed:after {
+  top: calc(50% - 2px);
+  -webkit-transform: translate(-50%, -50%) rotate(135deg);
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.accordion .accordion-body {
+  line-height: 1.8;
+  padding: 1rem 0 0.4rem 2.25rem;
+}
+
+.accordion.arrow-end .accordion-header .accordion-button {
+  padding-left: 1.25rem;
+}
+
+.accordion.arrow-end .accordion-header .accordion-button:after {
+  right: 15px;
+  left: auto;
+}
+
+.accordion.arrow-end .accordion-body {
+  padding-left: 1.25rem;
+}
+
+.accordion.accordion-flush .accordion-item {
+  margin: 0;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button {
+  padding-left: 1.40rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  background: transparent;
+  color: #2dbe60;
+}
+
+.accordion.accordion-flush .accordion-item:first-of-type .accordion-header .accordion-button {
+  border-top: 0px;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button:after {
+  left: 6px;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button.collapsed {
+  color: #4c4d4d;
+}
+
+.accordion.accordion-flush .accordion-body {
+  padding: 0rem 0 1rem 1.40rem;
+}
+
+.accordion.accordion-flush.arrow-end .accordion-header .accordion-button {
+  padding-left: 0;
+}
+
+.accordion.accordion-flush.arrow-end .accordion-header .accordion-button:after {
+  right: 0px;
+  left: auto;
+}
+
+.rtl .accordion .accordion-header .accordion-button {
+  padding: 1rem 2.25rem 1rem 1.25rem;
+}
+
+.rtl .accordion .accordion-header .accordion-button:after {
+  left: auto;
+  right: 12px;
+}
+
+.rtl .accordion .accordion-body {
+  padding-right: 2.25rem;
+  padding-left: 0;
+}
+
+.rtl .accordion.accordion-flush .accordion-header .accordion-button {
+  padding-right: 1.40rem;
+}
+
+.rtl .accordion.accordion-flush .accordion-header .accordion-button::after {
+  left: auto;
+  right: 0px;
+}
+
+.rtl .accordion.accordion-flush .accordion-body {
+  padding-right: 1.25rem;
+}
+
+.rtl .accordion.arrow-end .accordion-header .accordion-button {
+  padding-right: 1.25rem;
+  padding-left: 2.25rem;
+}
+
+.rtl .accordion.arrow-end .accordion-header .accordion-button::after {
+  left: 20px;
+  right: auto;
+}
+
+.rtl .accordion.arrow-end .accordion-body {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+.rtl .accordion.accordion-flush.arrow-end .accordion-header .accordion-button {
+  padding-right: 0;
+  padding-left: 2.25rem;
+}
+
+.rtl .accordion.accordion-flush.arrow-end .accordion-header .accordion-button::after {
+  left: 6px;
+  right: auto;
+}
+      </style>
+     
+
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright text-center">
+                <p class="mb-0">Copyright 2023 © Cuba theme by pixelstrap  </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- latest jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <script src="assets/js/scrollbar/simplebar.js"></script>
+    <script src="assets/js/scrollbar/custom.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/sidebar-pin.js"></script>
+    <script src="assets/js/clock.js"></script>
+    <script src="assets/js/slick/slick.min.js"></script>
+    <script src="assets/js/slick/slick.js"></script>
+    <script src="assets/js/header-slick.js"></script>
+    <script src="assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="assets/js/chart/apex-chart/moment.min.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/dashboard/default.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+    <script src="assets/js/typeahead/handlebars.js"></script>
+    <script src="assets/js/typeahead/typeahead.bundle.js"></script>
+    <script src="assets/js/typeahead/typeahead.custom.js"></script>
+    <script src="assets/js/typeahead-search/handlebars.js"></script>
+    <script src="assets/js/typeahead-search/typeahead-custom.js"></script>
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/animation/wow/wow.min.js"></script>
+    <script src="assets/js/clipboard/clipboard.min.js"></script>
+    <script src="assets/js/custom-card/custom-card.js"></script>
+    <script src="assets/js/tooltip-init.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script>new WOW().init();</script>
+  
+
+
+    <div class="customizer-links" >
+      <div class="nav flex-column nac-pills" id="c-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link" id="c-pills-layouts-tab" data-bs-toggle="pill" href="#c-pills-layouts" role="tab" aria-controls="c-pills-layouts" aria-selected="false" data-original-title="">
+      <div class="settings">
+        <ion-icon name="color-fill-outline"></ion-icon>
+      </div>
+      <span>Check layouts</span></a> 
+      <a class="nav-link" id="c-pills-home-tab" data-bs-toggle="pill" href="crypto-deposit.html" role="tab" aria-controls="c-pills-home" aria-selected="false" data-original-title="">
+      <div class="settings">
+        <ion-icon name="server-outline"></ion-icon>
+      </div>
+      <span>Deposit</span></a> 
+      <a class="nav-link" target="_blank" href="settings-profile.html" data-original-title="">
+      <div>
+        <ion-icon name="cog-outline"></ion-icon>
+     </div>
+     <span>Settings</span></a> 
+     <a class="nav-link" target="_blank" href="settings-security.html" data-original-title="">
+     <div>
+      <ion-icon name="finger-print-outline"></ion-icon>
+      </div>
+      <span>Security</span></a> 
+      <a class="nav-link" target="_blank" href="chat.html" data-original-title="">
+      <div>
+        <ion-icon name="mail-unread-outline"></ion-icon>
+      </div>
+      <span>Inbox</span></a> 
+      <a class="nav-link" target="_blank" href="login.html" data-original-title="">
+      <div>
+        <ion-icon name="log-in-outline"></ion-icon>
+      </div>
+      <span>Log Out</span></a>
+      </div>
+      </div>
+  
+
+      
+  </body>
+</html>
