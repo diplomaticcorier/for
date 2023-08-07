@@ -1,0 +1,244 @@
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .wallet-page-modal .modal-dialog,#new-investment-modal .modal-dialog {max-width: 700px;}
+    #new-investment-modal .default-text-wrapper p {width: 60%;}
+    .new-invest-modal .details-option {width: 480px;padding: 0 35px;}
+    .new-invest-modal .modal-sidebar {width: calc(100% - 480px);}
+    .new-invest-modal .modal-sidebar {padding-left: 15px;padding-right: 15px;}
+    .new-invest-modal #final-check .main-wrapper {padding-left: 30px;padding-right: 30px;}
+    #new-investment-modal .default-text-wrapper .button-group {width: 60%;}
+    #new-investment-modal #cancel-invest .button-group {width: 45%;}
+    .affiliates-page #campaigns .campaign-upper-info .campaign-name {width: 35%;}
+    .affiliates-page #campaigns .campaign-upper-info .campaign-url {width: 65%;}
+    .affiliates-page #campaigns .affiliate-history .inner-warpper {padding-left: 15px;}
+    .affiliates-page .affiliates-table-sheet tbody td,.affiliates-page .affiliates-table-sheet thead td {padding: 25px 5px;}
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    .modal-dialog,.wallet-page-modal .modal-dialog,#new-investment-modal .modal-dialog {max-width: 500px;}
+    #affiliates .search-affiliates form {width: 320px;}
+  }
+  /*(min-width: 576px) and (max-width: 767px)*/
+  
+  @media (max-width: 575px) {
+    body {font-size: 10px;}
+    .dashboard-sidebar-navigation {
+      width: 100%;
+      padding-top: 55px;
+      -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+      }
+    .dashboard-sidebar-navigation .navigation-link li a {font-size: 1.3333em;}
+    #main-top-header .logo-wrapper {left: 45px;transform:none;}
+    #main-top-header .top-bar-action-list .balance-action-button .dropdown-toggle {
+      margin: 0;
+      border: none;
+      padding: 0 30px 0 0;
+    }
+    #dashboard-wrapper .top-bar-action-list .balance-action-button .dropdown-menu {min-width: 290px;}
+    .modal-dialog,.wallet-page-modal .modal-dialog,#new-investment-modal .modal-dialog {max-width: 95%;}
+    .investment-list-item-wrapper .item-filter-header .right-button-group {width: 100%;margin-top: 15px;}
+    #payout-modal .payout-history {margin: 0 0 25px;}
+    #investment-modal .single-input-wrapper .selectric-items li {line-height: 45px;}
+    .theme-modal-header .title {padding: 0 40px;}
+    #investment-modal .single-input-wrapper input,.invest-amount-details .input-box-wrapper .input-group-wrapper .cryptocurrency-amount,
+    #investment-modal .single-input-wrapper .selectric .label {padding: 0 10px;}
+    .payment-method-one .list-item {padding-left: 10px;padding-right: 10px;}
+    .invest-amount-details .input-box-wrapper .input-group-wrapper .currency-icon {left:10px;line-height: 96px;}
+    .invest-amount-details .input-box-wrapper .input-group-wrapper input {padding-left: 23px;}
+    .user-settings-content .settings-nav .nav-item {margin: 0 5px;}
+    .settings-tab-content .single-input-group .member-status {padding: 15px;}
+    .settings-page-modal .modal-body {padding: 15px 15px 40px;}
+    .wallet-balance .button-group {padding: 15px 5px;}
+    .cryptocurrency-prices {padding: 22px 15px 25px;}
+    .wallet-history li {width: 100%;}
+    .wallet-history .inner-warpper {height: 90px;padding-top: 18px;}
+    .cryptocurrency-prices .currnecy-prices-list li {padding-top: 20px;}
+    .cryptocurrency-prices .currnecy-prices-list .right-content {width: 100%;}
+    .cryptocurrency-prices .currnecy-prices-list .value .current-rate {margin: 3px 0 0 0;}
+    .withdraw-method-dropdown .balance-sheet-wrapper .withdraw-currency-list .balance-inquery .currency-title,
+    .wallet-balance .balance-sheet-wrapper ul li .balance-inquery .currency-title,
+    #main-top-header .balance-action-button .balance-sheet-wrapper ul li .balance-inquery .currency-title {margin-top: 3px;}
+    .withdraw-method-dropdown .balance-sheet-wrapper .withdraw-currency-list {padding: 11px 15px;}
+    .withdraw-method-dropdown .withdraw-dropdown-button .balance-sheet-wrapper .withdraw-currency-list {padding-right: 35px;}
+    .withdraw-method-dropdown .dropdown-toggle::before {right: 10px;}
+    .wallet-page-modal .modal-sidebar .list-item {padding-bottom: 30px;}
+    .user-access-page .main-container {width: 96%;}
+    .user-access-page .main-container .inner-box {padding: 40px 15px 30px;}
+    .user-access-page .main-container .apps-download-button {padding: 25px 10px 0;}
+    .user-access-page .main-container .main-title {padding-bottom: 35px;}
+    #new-investment-modal .default-text-wrapper .title br {display: none;}
+    .new-invest-modal .details-option .payout-frequency-list li {width: 100%;margin-bottom: 15px;}
+    .new-invest-modal #new-invest-amount .button-group li:last-child {width: 100%;}
+    .new-invest-modal #final-check .main-wrapper .button-group li:first-child,
+    .new-invest-modal #final-check .main-wrapper .button-group li:last-child,
+    #new-investment-modal .default-text-wrapper .button-group li:first-child,
+    #new-investment-modal .default-text-wrapper .button-group li:last-child {float: none;display: block;}
+    .new-invest-modal #final-check .main-wrapper .button-group li:first-child,
+    #new-investment-modal .default-text-wrapper .button-group li:first-child {margin-bottom: 15px;}
+    .affiliates-page #campaigns .campaign-upper-info .campaign-url form button {width: 100px;}
+    .affiliates-page .user-affiliate-content .affiliate-nav .nav-tabs .nav-link {margin: 0 15px;}
+    .affiliates-page #campaigns .campaign-upper-info .selectric .label {height: 65px;line-height: 65px;margin: 0 15px;}
+    .affiliates-page #campaigns .campaign-upper-info .selectric .button,
+    .affiliates-page #campaigns .campaign-upper-info .campaign-url form {height: 65px;}
+    .affiliates-page #campaigns .campaign-upper-info .campaign-url form input {padding:0 100px 0 15px;}
+    .affiliates-page #campaigns .affiliate-history .inner-warpper {padding-left: 10px;}
+    #affiliates .search-affiliates,#affiliates .search-affiliates form {width: 100%;}
+    #affiliates .affiliates-status {float: left;}
+    .affiliates-page #campaigns .campaign-upper-info .selectric-items li {line-height: 45px;}
+  }
+  /*(max-width: 575px)*/
+  
+  @media (max-width: 550px) {
+    .full-performance-history .performance-nav .nav-item a {width: 62px;}
+    .full-performance-history .performance-nav {margin: 0 -2px;}
+    .full-performance-history .performance-nav .nav-item {padding: 0 4px;}
+    .settings-tab-content .single-input-group .member-status .member-info,
+    .settings-tab-content .single-input-group .member-status .member-badge {float: none;}
+    .settings-tab-content .user-phone-list .single-number-input .number-delete-button {width: 50px; right: -60px;}
+    .settings-tab-content .user-phone-list .single-number-input {width: calc(100% - 60px); padding: 0 10px;}
+    .settings-tab-content .user-phone-list .single-number-input .verify-status {right: 10px;}
+    .verification-code-details .code-verify .button-group li:first-child,
+    .verification-code-details .code-verify .button-group li:last-child {float: none;}
+    .verification-code-details .code-verify .button-group button {margin: 5px auto;}
+  }
+  @media (max-width: 450px) {
+    .investment-list-item-wrapper .item-filter-header .right-button-group>li {display: block;}
+    .investment-list-item-wrapper .item-filter-header .right-button-group .new-invest-button {margin: 10px 0 0 0;}
+    #payout-modal .payout-history .list-item {width: 50%;margin-bottom: 20px;}
+    #payout-modal .payout-history {padding-bottom: 0;}
+    .invest-amount-details .input-box-wrapper .input-group-wrapper .selectric-wrapper,
+    #investment-modal .single-input-wrapper .selectric .button {right: 0;}
+    .payout-panel .next-payout-box {padding: 10px 15px;text-align: center;}
+    .payout-panel .next-payout-box .title,.payout-panel .next-payout-box .payout-date {float: none;}
+    .affiliates-page #payments .payments-history .inner-warpper {height: auto;}
+    .affiliates-page #payments .payments-history .inner-warpper .withdraw-button {position: static;transform: none; display: block;margin-top: 10px;}
+  }
+  @media (max-width: 380px) {
+    .wallet-balance .button-group li:first-child,.wallet-balance .button-group li:last-child {float: none;}
+    .wallet-balance .button-group li button {margin: 2px auto;display: block;}
+  }
+
+
+  
+.payout-panel .next-payout-box {
+    background: linear-gradient(120deg, #68e4f1 0%, #66a6ff 100%);
+    border-radius: 5px;
+    padding: 13px 30px;
+    margin-bottom: 20px;
+    z-index: 9;
+}
+.payout-panel .next-payout-box .title {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 32px;
+    float: left;
+}
+
+.payout-panel .next-payout-box .payout-date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.3333em;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+.payout-panel .next-payout-box .coins {
+    float: right;
+}
+
+.payout-history-wrapper .payout-history-title {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 18px;
+}
+.payout-history-wrapper .payout-history-title .help-button {
+    position: absolute;
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    right: -23px;
+    top: 0;
+}
+.payout-history-wrapper .total-payout-count {
+    float: right;
+    color: #101530;
+    font-size: 1.1666em;
+    margin-bottom: 18px;
+}
+
+.payout-single-table table .title {
+    font-size: 1.16666em;
+}
+.payout-single-table table .payment-status {
+    padding-left: 18px;
+}
+
+.payout-single-table table .payment-status:before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.payout-panel .next-payout-box .coins {
+    float: right;
+}
+
+.payout-single-table table .payment-status:before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.payout-single-table table .payment-status.paid:before {
+    background: #4a9aef;
+}
+.payout-single-table table .value {
+    color: #101530;
+    font-size: 1.33333em;
+    margin-top: 5px;
+    position: relative;
+}
+.payout-single-table table .value .currency-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: -1px;
+    margin-right: 5px;
+}
+.payout-single-table table .payment-status.open:before {
+    background: #f14c5d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
